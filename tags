@@ -1,0 +1,1974 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACORE	proc/pracct.c	/^#define ACORE /;"	d	file:
+AR	db/freebsd.mk	/^AR	= ar$/;"	m
+AR	db/linux.mk	/^AR	= ar$/;"	m
+AR	db/macos.mk	/^AR	= ar$/;"	m
+AR	db/solaris.mk	/^AR	= ar$/;"	m
+AR	lib/freebsd.mk	/^AR	= ar$/;"	m
+AR	lib/linux.mk	/^AR	= ar$/;"	m
+AR	lib/macos.mk	/^AR	= ar$/;"	m
+AR	lib/solaris.mk	/^AR	= ar$/;"	m
+ARRAY_SIZE	ipc/tshm.c	/^#define	ARRAY_SIZE	/;"	d	file:
+AXSIG	proc/pracct.c	/^#define AXSIG /;"	d	file:
+BIGCOUNT	lib/semaph.c	/^#define	BIGCOUNT	/;"	d	file:
+BUFFERSZ	stdio/buf.c	/^#define BUFFERSZ(/;"	d	file:
+BUFFSIZE	advio/catgetmsg.c	/^#define	BUFFSIZE	/;"	d	file:
+BUFFSIZE	call/loop.poll.c	/^#define	BUFFSIZE	/;"	d	file:
+BUFFSIZE	mycat/mycat.c	/^#define	BUFFSIZE	/;"	d	file:
+BUFFSIZE	open.fe/main.c	/^#define	BUFFSIZE	/;"	d	file:
+BUFFSIZE	pty/loop.c	/^#define	BUFFSIZE	/;"	d	file:
+BUFFSIZE	signals/sigtstp.c	/^#define	BUFFSIZE	/;"	d	file:
+BUFLEN	sockets/ruptime-dg.c	/^#define BUFLEN	/;"	d	file:
+BUFLEN	sockets/ruptime.c	/^#define BUFLEN	/;"	d	file:
+BUFLEN	sockets/ruptimed-dg.c	/^#define BUFLEN	/;"	d	file:
+BUFLEN	sockets/ruptimed.c	/^#define BUFLEN	/;"	d	file:
+CBREAK	lib/ttymodes.c	/^static enum { RESET, RAW, CBREAK }	ttystate = RESET;$/;"	e	enum:__anon9	file:
+CFLAGS	db/freebsd.mk	/^CFLAGS=-DLINUX -ansi -I$(WKDIR)\/include -Wall$/;"	m
+CFLAGS	db/linux.mk	/^CFLAGS=-DLINUX -ansi -I$(WKDIR)\/include -Wall$/;"	m
+CFLAGS	db/macos.mk	/^CFLAGS=-DLINUX -ansi -I$(WKDIR)\/include -Wall$/;"	m
+CLI_PATH	lib/cliconn.c	/^#define	CLI_PATH	/;"	d	file:
+CLI_PATH	sockets/cliconn.c	/^#define	CLI_PATH	/;"	d	file:
+CLI_PERM	lib/cliconn.c	/^#define	CLI_PERM	/;"	d	file:
+CLI_PERM	sockets/cliconn.c	/^#define	CLI_PERM	/;"	d	file:
+CL_CALL	call/call.h	/^#define	CL_CALL	/;"	d
+CL_CALL	calld/calld.h	/^#define	CL_CALL	/;"	d
+CL_OPEN	open.fe/open.h	/^#define	CL_OPEN /;"	d
+CL_OPEN	open/open.h	/^#define	CL_OPEN /;"	d
+CL_OPEN	opend.fe/opend.h	/^#define	CL_OPEN /;"	d
+CL_OPEN	opend/opend.h	/^#define	CL_OPEN /;"	d
+CMSG_LEN	include/apue.h	/^#define CMSG_LEN(/;"	d
+CMSG_LEN	lib/apue.h	/^#define CMSG_LEN(/;"	d
+COMM_OBJ	db/freebsd.mk	/^COMM_OBJ   = db.o$/;"	m
+COMM_OBJ	db/linux.mk	/^COMM_OBJ   = db.o$/;"	m
+COMM_OBJ	db/macos.mk	/^COMM_OBJ   = db.o$/;"	m
+COMM_OBJ	db/solaris.mk	/^COMM_OBJ   = db.o$/;"	m
+CONFIG_FILE	ipp/print.h	/^#define CONFIG_FILE /;"	d
+CONTROLLEN	lib/recvfd.c	/^#define	CONTROLLEN	/;"	d	file:
+CONTROLLEN	lib/sendfd.c	/^#define	CONTROLLEN	/;"	d	file:
+CONTROLLEN	sockets/recvfd.c	/^#define	CONTROLLEN	/;"	d	file:
+CONTROLLEN	sockets/recvfd2.c	/^#define	CONTROLLEN	/;"	d	file:
+CONTROLLEN	sockets/sendfd.c	/^#define	CONTROLLEN	/;"	d	file:
+CONTROLLEN	sockets/sendfd2.c	/^#define	CONTROLLEN	/;"	d	file:
+COUNT	db/db.c	/^typedef unsigned long	COUNT;	\/* unsigned counter *\/$/;"	t	file:
+CREDOPT	sockets/recvfd2.c	/^#define CREDOPT	/;"	d	file:
+CREDSLEN	sockets/recvfd2.c	/^#define CREDSLEN	/;"	d	file:
+CREDSLEN	sockets/sendfd2.c	/^#define CREDSLEN	/;"	d	file:
+CREDSTRUCT	sockets/recvfd2.c	/^#define CREDSTRUCT	/;"	d	file:
+CREDSTRUCT	sockets/sendfd2.c	/^#define CREDSTRUCT	/;"	d	file:
+CR_UID	sockets/recvfd2.c	/^#define CR_UID	/;"	d	file:
+CS_CALL	call/call.h	/^#define	CS_CALL	/;"	d
+CS_CALL	calld/calld.h	/^#define	CS_CALL	/;"	d
+CS_OPEN	open/open.h	/^#define CS_OPEN /;"	d
+CS_OPEN	opend/opend.h	/^#define	CS_OPEN /;"	d
+CTRLA	call/take.c	/^#define	CTRLA	/;"	d	file:
+Client	calld/calld.h	/^} Client;$/;"	t	typeref:struct:__anon3
+Client	opend/opend.h	/^} Client;$/;"	t	typeref:struct:__anon8
+DATADIR	ipp/print.h	/^#define DATADIR /;"	d
+DATAFILE	environ/opendata.c	/^#define	DATAFILE	/;"	d	file:
+DATLEN_MAX	db/apue_db.h	/^#define DATLEN_MAX	/;"	d
+DATLEN_MIN	db/apue_db.h	/^#define DATLEN_MIN	/;"	d
+DB	db/db.c	/^} DB;$/;"	t	typeref:struct:__anon2	file:
+DBHANDLE	db/apue_db.h	/^typedef	void *	DBHANDLE;$/;"	t
+DBHASH	db/db.c	/^typedef unsigned long	DBHASH;	\/* hash values *\/$/;"	t	file:
+DB_INSERT	db/apue_db.h	/^#define DB_INSERT	/;"	d
+DB_REPLACE	db/apue_db.h	/^#define DB_REPLACE	/;"	d
+DB_STORE	db/apue_db.h	/^#define DB_STORE	/;"	d
+DEBUG	calld/calld.h	/^void  DEBUG(char *, ...);					\/* debug.c *\/$/;"	p	signature:(char *, ...)
+DEBUG	calld/debug.c	/^DEBUG(char *fmt, ...)		\/* debug output, newline at end *\/$/;"	f	signature:(char *fmt, ...)
+DEBUG_NONL	calld/calld.h	/^void  DEBUG_NONL(char *, ...);$/;"	p	signature:(char *, ...)
+DEBUG_NONL	calld/debug.c	/^DEBUG_NONL(char *fmt, ...)	\/* debug output, NO newline at end *\/$/;"	f	signature:(char *fmt, ...)
+DEF_PAGER	ipc/pipe2.c	/^#define	DEF_PAGER	/;"	d	file:
+DEPTH	file/longpath.c	/^#define	DEPTH	/;"	d	file:
+DEVICES	calld/calld.h	/^#define	DEVICES	/;"	d
+DIALERS	calld/calld.h	/^#define	DIALERS	/;"	d
+DIRS	Makefile	/^DIRS = lib sockets advio call calld daemons datafiles db environ exercises \\$/;"	m
+DIR_MODE	include/apue.h	/^#define	DIR_MODE	/;"	d
+DIR_MODE	lib/apue.h	/^#define	DIR_MODE	/;"	d
+Debug	calld/calld.h	/^  int	Debug;				\/* option from client *\/$/;"	m	struct:__anon3	access:public
+Debug	calld/calld.h	/^extern int    Debug;	\/* nonzero for dialing debug output *\/$/;"	x
+Debug	calld/main.c	/^int			Debug;	\/* Debug controlled by client, not cmd line *\/$/;"	v
+Devices	calld/calld.h	/^} Devices;$/;"	t	typeref:struct:__anon5
+Dialers	calld/calld.h	/^} Dialers;$/;"	t	typeref:struct:__anon6
+ETIME	ipp/print.h	/^#define ETIME /;"	d
+EVEN	calld/calld.h	/^extern enum parity { NONE, EVEN, ODD } parity;	\/* specified by client *\/$/;"	e	enum:parity
+EXPALRM	calld/expectstr.c	/^#define	EXPALRM	/;"	d	file:
+EXTRA	advio/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	advio/linux.mk	/^EXTRA=$/;"	m
+EXTRA	advio/macos.mk	/^EXTRA=$/;"	m
+EXTRA	advio/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	call/freebsd.mk	/^EXTRA=-DDEBUG$/;"	m
+EXTRA	call/linux.mk	/^EXTRA=-DDEBUG$/;"	m
+EXTRA	call/macos.mk	/^EXTRA=-DDEBUG$/;"	m
+EXTRA	call/solaris.mk	/^EXTRA=-DDEBUG$/;"	m
+EXTRA	calld/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	calld/linux.mk	/^EXTRA=$/;"	m
+EXTRA	calld/macos.mk	/^EXTRA=$/;"	m
+EXTRA	calld/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	daemons/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	daemons/linux.mk	/^EXTRA=$/;"	m
+EXTRA	daemons/macos.mk	/^EXTRA=$/;"	m
+EXTRA	daemons/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	datafiles/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	datafiles/linux.mk	/^EXTRA=$/;"	m
+EXTRA	datafiles/macos.mk	/^EXTRA=$/;"	m
+EXTRA	datafiles/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	exercises/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	exercises/linux.mk	/^EXTRA=$/;"	m
+EXTRA	exercises/macos.mk	/^EXTRA=-DOS_INLINE=static$/;"	m
+EXTRA	exercises/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	ipc/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	ipc/linux.mk	/^EXTRA=$/;"	m
+EXTRA	ipc/macos.mk	/^EXTRA=$/;"	m
+EXTRA	ipc/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	ipp/freebsd.mk	/^EXTRA=-DDEBUG$/;"	m
+EXTRA	ipp/linux.mk	/^EXTRA=-DDEBUG$/;"	m
+EXTRA	ipp/macos.mk	/^EXTRA=-DDEBUG -DOS_INLINE=static$/;"	m
+EXTRA	ipp/solaris.mk	/^EXTRA=-D__EXTENSIONS__$/;"	m
+EXTRA	lib/freebsd.mk	/^EXTRA= -D_HAS_OPENPT -D_HAS_GRANTPT -D_HAS_UNLOCKPT -D_HAS_PTSNAME$/;"	m
+EXTRA	lib/solaris.mk	/^EXTRA=-D__EXTENSIONS__ -D_HAS_PTSNAME -D_HAS_GRANTPT -D_HAS_UNLOCKPT$/;"	m
+EXTRA	lock/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	lock/linux.mk	/^EXTRA=$/;"	m
+EXTRA	lock/macos.mk	/^EXTRA=$/;"	m
+EXTRA	lock/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	open.fe/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	open.fe/linux.mk	/^EXTRA=$/;"	m
+EXTRA	open.fe/macos.mk	/^EXTRA=$/;"	m
+EXTRA	open.fe/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	open/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	open/linux.mk	/^EXTRA=$/;"	m
+EXTRA	open/macos.mk	/^EXTRA=$/;"	m
+EXTRA	open/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	opend.fe/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	opend.fe/linux.mk	/^EXTRA=$/;"	m
+EXTRA	opend.fe/macos.mk	/^EXTRA=$/;"	m
+EXTRA	opend.fe/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	opend/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	opend/linux.mk	/^EXTRA=$/;"	m
+EXTRA	opend/macos.mk	/^EXTRA=-DOS_INLINE=static$/;"	m
+EXTRA	opend/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	proc/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	pty/solaris.mk	/^EXTRA=-D__EXTENSIONS__$/;"	m
+EXTRA	sockets/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	sockets/linux.mk	/^EXTRA=$/;"	m
+EXTRA	sockets/macos.mk	/^EXTRA=$/;"	m
+EXTRA	sockets/solaris.mk	/^EXTRA=-D__EXTENSIONS__$/;"	m
+EXTRA	streams/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	streams/linux.mk	/^EXTRA=$/;"	m
+EXTRA	streams/macos.mk	/^EXTRA=$/;"	m
+EXTRA	streams/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	termios/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	termios/linux.mk	/^EXTRA=$/;"	m
+EXTRA	termios/macos.mk	/^EXTRA=$/;"	m
+EXTRA	termios/solaris.mk	/^EXTRA=-D__EXTENSIONS__$/;"	m
+EXTRA	threadctl/linux.mk	/^EXTRA=$/;"	m
+EXTRA	threadctl/macos.mk	/^EXTRA=$/;"	m
+EXTRA	threadctl/solaris.mk	/^EXTRA=-D_POSIX_PTHREAD_SEMANTICS$/;"	m
+EXTRA	threads/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	threads/linux.mk	/^EXTRA=$/;"	m
+EXTRA	threads/macos.mk	/^EXTRA=$/;"	m
+EXTRA	threads/solaris.mk	/^EXTRA=$/;"	m
+EXTRALIBS	call/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	calld/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	ipc/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	ipp/solaris.mk	/^EXTRALIBS=-lsocket -lnsl -lrt -lpthread$/;"	m
+EXTRALIBS	open.fe/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	open/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	opend.fe/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	opend/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	pty/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	sockets/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	threadctl/freebsd.mk	/^EXTRALIBS=-pthread$/;"	m
+EXTRALIBS	threadctl/linux.mk	/^EXTRALIBS=-pthread$/;"	m
+EXTRALIBS	threadctl/solaris.mk	/^EXTRALIBS=-lrt -lpthread$/;"	m
+EXTRALIBS	threads/freebsd.mk	/^EXTRALIBS=-pthread$/;"	m
+EXTRALIBS	threads/linux.mk	/^EXTRALIBS=-pthread$/;"	m
+EXTRALIBS	threads/solaris.mk	/^EXTRALIBS=-lpthread$/;"	m
+FIFO	ipc/fifo1.c	/^#define	FIFO	/;"	d	file:
+FIFO_MODE	streams/servlisten.c	/^#define	FIFO_MODE /;"	d	file:
+FILENMSZ	ipp/print.h	/^#define FILENMSZ /;"	d
+FILEPERM	ipp/print.h	/^#define FILEPERM /;"	d
+FILES	environ/freebsd.mk	/^FILES= doatexit testjmp.opt testjmp$/;"	m
+FILES	environ/linux.mk	/^FILES= doatexit testjmp.opt testjmp$/;"	m
+FILES	environ/macos.mk	/^FILES= doatexit testjmp.opt testjmp$/;"	m
+FILES	environ/solaris.mk	/^FILES= doatexit testjmp.opt testjmp$/;"	m
+FILE_MODE	include/apue.h	/^#define	FILE_MODE	/;"	d
+FILE_MODE	lib/apue.h	/^#define	FILE_MODE	/;"	d
+FMT	environ/getrlimit.c	/^#define FMT	/;"	d	file:
+FMT	proc/pracct.c	/^#define FMT /;"	d	file:
+FREE_OFF	db/db.c	/^#define FREE_OFF /;"	d	file:
+FTW_D	file/ftw4.c	/^#define	FTW_D	/;"	d	file:
+FTW_DNR	file/ftw4.c	/^#define	FTW_DNR	/;"	d	file:
+FTW_F	file/ftw4.c	/^#define	FTW_F	/;"	d	file:
+FTW_NS	file/ftw4.c	/^#define	FTW_NS	/;"	d	file:
+HASH	threads/mutex2.c	/^#define HASH(/;"	d	file:
+HASH	threads/mutex3.c	/^#define HASH(/;"	d	file:
+HASH_OFF	db/db.c	/^#define HASH_OFF /;"	d	file:
+HBUFSZ	ipp/print.h	/^#define HBUFSZ /;"	d
+HDRS	call/freebsd.mk	/^HDRS = call.h$/;"	m
+HDRS	call/linux.mk	/^HDRS = call.h$/;"	m
+HDRS	call/macos.mk	/^HDRS = call.h$/;"	m
+HDRS	call/solaris.mk	/^HDRS = call.h$/;"	m
+HDRS	calld/freebsd.mk	/^HDRS = calld.h$/;"	m
+HDRS	calld/linux.mk	/^HDRS = calld.h$/;"	m
+HDRS	calld/macos.mk	/^HDRS = calld.h$/;"	m
+HDRS	calld/solaris.mk	/^HDRS = calld.h$/;"	m
+HDRS	ipp/freebsd.mk	/^HDRS = print.h ipp.h$/;"	m
+HDRS	ipp/linux.mk	/^HDRS = print.h ipp.h$/;"	m
+HDRS	ipp/macos.mk	/^HDRS = print.h ipp.h$/;"	m
+HDRS	ipp/solaris.mk	/^HDRS = print.h ipp.h$/;"	m
+HOST_NAME_MAX	ipp/print.h	/^#define HOST_NAME_MAX /;"	d
+HOST_NAME_MAX	sockets/ruptimed-dg.c	/^#define HOST_NAME_MAX /;"	d	file:
+HOST_NAME_MAX	sockets/ruptimed-fd.c	/^#define HOST_NAME_MAX /;"	d	file:
+HOST_NAME_MAX	sockets/ruptimed.c	/^#define HOST_NAME_MAX /;"	d	file:
+HTTP_INFO	ipp/printd.c	/^#define HTTP_INFO(/;"	d	file:
+HTTP_SUCCESS	ipp/printd.c	/^#define HTTP_SUCCESS(/;"	d	file:
+IBUFSZ	ipp/print.h	/^#define IBUFSZ /;"	d
+IDXLEN_MAX	db/apue_db.h	/^#define IDXLEN_MAX	/;"	d
+IDXLEN_MIN	db/apue_db.h	/^#define IDXLEN_MIN	/;"	d
+IDXLEN_SZ	db/db.c	/^#define IDXLEN_SZ	/;"	d	file:
+IOBUFSZ	ipp/print.h	/^#define IOBUFSZ /;"	d
+IPP_PORT	ipp/print.h	/^#define IPP_PORT /;"	d
+JOBFILE	ipp/print.h	/^#define JOBFILE /;"	d
+JOBNM_MAX	ipp/print.h	/^#define JOBNM_MAX /;"	d
+LIBMISC	db/freebsd.mk	/^LIBMISC	= libapue_db.a$/;"	m
+LIBMISC	db/linux.mk	/^LIBMISC	= libapue_db.a$/;"	m
+LIBMISC	db/macos.mk	/^LIBMISC	= libapue_db.a$/;"	m
+LIBMISC	db/solaris.mk	/^LIBMISC	= libapue_db.a$/;"	m
+LIBMISC	lib/freebsd.mk	/^LIBMISC	= libapue.a$/;"	m
+LIBMISC	lib/linux.mk	/^LIBMISC	= libapue.a$/;"	m
+LIBMISC	lib/macos.mk	/^LIBMISC	= libapue.a$/;"	m
+LIBMISC	lib/solaris.mk	/^LIBMISC	= libapue.a$/;"	m
+LOCKFILE	daemons/single.c	/^#define LOCKFILE /;"	d	file:
+LOCKMODE	daemons/single.c	/^#define LOCKMODE /;"	d	file:
+Lock	calld/lock.c	/^} Lock;$/;"	t	typeref:struct:__anon7	file:
+MALLOC_SIZE	ipc/tshm.c	/^#define	MALLOC_SIZE	/;"	d	file:
+MAXADDRLEN	sockets/ruptime.c	/^#define MAXADDRLEN	/;"	d	file:
+MAXADDRLEN	sockets/ruptimed-dg.c	/^#define MAXADDRLEN	/;"	d	file:
+MAXARGC	lib/bufargs.c	/^#define	MAXARGC	/;"	d	file:
+MAXCFGLINE	ipp/util.c	/^#define MAXCFGLINE /;"	d	file:
+MAXFMTLEN	ipp/util.c	/^#define MAXFMTLEN /;"	d	file:
+MAXKWLEN	ipp/util.c	/^#define MAXKWLEN /;"	d	file:
+MAXLINE	include/apue.h	/^#define	MAXLINE	/;"	d
+MAXLINE	lib/apue.h	/^#define	MAXLINE	/;"	d
+MAXSLEEP	sockets/clconn.c	/^#define MAXSLEEP /;"	d	file:
+MAXSPEEDSTR	calld/calld.h	/^#define	MAXSPEEDSTR	/;"	d
+MAXSYSNAME	calld/calld.h	/^#define	MAXSYSNAME	/;"	d
+MAXSZ	file/longpath.c	/^#define MAXSZ	/;"	d	file:
+MAX_PASS_LEN	termios/getpass.c	/^#define	MAX_PASS_LEN	/;"	d	file:
+MSGLEN_MAX	ipp/print.h	/^#define MSGLEN_MAX /;"	d
+MYHOME	file/longpath.c	/^#define	MYHOME	/;"	d	file:
+Makefile	Makefile	1;"	F
+Myfunc	file/ftw4.c	/^typedef	int	Myfunc(const char *, const struct stat *, int);$/;"	t	file:
+NALLOC	calld/calld.h	/^#define	NALLOC	/;"	d
+NALLOC	opend/client.c	/^#define	NALLOC	/;"	d	file:
+NAME	file/longpath.c	/^#define	NAME	/;"	d	file:
+NEWLINE	db/db.c	/^#define NEWLINE /;"	d	file:
+NHASH	threads/mutex2.c	/^#define NHASH /;"	d	file:
+NHASH	threads/mutex3.c	/^#define NHASH /;"	d	file:
+NHASH_DEF	db/db.c	/^#define NHASH_DEF	/;"	d	file:
+NLOOPS	advio/devzero.c	/^#define	NLOOPS	/;"	d	file:
+NONE	calld/calld.h	/^extern enum parity { NONE, EVEN, ODD } parity;	\/* specified by client *\/$/;"	e	enum:parity
+OBJ	datafiles/freebsd.mk	/^OBJ = getpwnam.o$/;"	m
+OBJ	datafiles/linux.mk	/^OBJ = getpwnam.o$/;"	m
+OBJ	datafiles/macos.mk	/^OBJ = getpwnam.o$/;"	m
+OBJ	datafiles/solaris.mk	/^OBJ = getpwnam.o$/;"	m
+OBJS	lib/freebsd.mk	/^OBJS   = bufargs.o cliconn.o clrfl.o \\$/;"	m
+OBJS	lib/linux.mk	/^OBJS   = bufargs.o cliconn.o clrfl.o \\$/;"	m
+OBJS	lib/macos.mk	/^OBJS   = bufargs.o cliconn.o clrfl.o \\$/;"	m
+OBJS	lib/solaris.mk	/^OBJS   = bufargs.o cliconn.o clrfl.o \\$/;"	m
+ODD	calld/calld.h	/^extern enum parity { NONE, EVEN, ODD } parity;	\/* specified by client *\/$/;"	e	enum:parity
+OPEN_MAX_GUESS	exercises/openmax.c	/^#define OPEN_MAX_GUESS	/;"	d	file:
+OPEN_MAX_GUESS	lib/openmax.c	/^#define	OPEN_MAX_GUESS	/;"	d	file:
+OPTSTR	pty/main.c	/^#define OPTSTR /;"	d	file:
+OP_CANCEL_JOB	ipp/ipp.h	/^#define OP_CANCEL_JOB /;"	d
+OP_CREATE_JOB	ipp/ipp.h	/^#define OP_CREATE_JOB /;"	d
+OP_GET_JOBS	ipp/ipp.h	/^#define OP_GET_JOBS /;"	d
+OP_GET_JOB_ATTR	ipp/ipp.h	/^#define OP_GET_JOB_ATTR /;"	d
+OP_GET_PRINTER_ATTR	ipp/ipp.h	/^#define OP_GET_PRINTER_ATTR /;"	d
+OP_HOLD_JOB	ipp/ipp.h	/^#define OP_HOLD_JOB /;"	d
+OP_PAUSE_PRINTER	ipp/ipp.h	/^#define OP_PAUSE_PRINTER /;"	d
+OP_PRINT_JOB	ipp/ipp.h	/^#define OP_PRINT_JOB /;"	d
+OP_PRINT_URI	ipp/ipp.h	/^#define OP_PRINT_URI /;"	d
+OP_PURGE_JOBS	ipp/ipp.h	/^#define OP_PURGE_JOBS /;"	d
+OP_RELEASE_JOB	ipp/ipp.h	/^#define OP_RELEASE_JOB /;"	d
+OP_RESTART_JOB	ipp/ipp.h	/^#define OP_RESTART_JOB /;"	d
+OP_RESUME_PRINTER	ipp/ipp.h	/^#define OP_RESUME_PRINTER /;"	d
+OP_SEND_DOC	ipp/ipp.h	/^#define OP_SEND_DOC /;"	d
+OP_SEND_URI	ipp/ipp.h	/^#define OP_SEND_URI /;"	d
+OP_VALIDATE_JOB	ipp/ipp.h	/^#define OP_VALIDATE_JOB /;"	d
+PAGER	ipc/popen2.c	/^#define	PAGER	/;"	d	file:
+PATH_MAX_GUESS	lib/pathalloc.c	/^#define	PATH_MAX_GUESS	/;"	d	file:
+PROGS	advio/freebsd.mk	/^PROGS = devzero mcopy nonblockw pendlock$/;"	m
+PROGS	advio/linux.mk	/^PROGS = catgetmsg devzero mcopy nonblockw pendlock$/;"	m
+PROGS	advio/macos.mk	/^PROGS = devzero mcopy nonblockw pendlock$/;"	m
+PROGS	advio/solaris.mk	/^PROGS = catgetmsg devzero mcopy nonblockw pendlock$/;"	m
+PROGS	call/freebsd.mk	/^PROGS = call$/;"	m
+PROGS	call/linux.mk	/^PROGS = call$/;"	m
+PROGS	call/macos.mk	/^PROGS = call$/;"	m
+PROGS	call/solaris.mk	/^PROGS = call$/;"	m
+PROGS	calld/freebsd.mk	/^PROGS = calld$/;"	m
+PROGS	calld/linux.mk	/^PROGS = calld$/;"	m
+PROGS	calld/macos.mk	/^PROGS = calld$/;"	m
+PROGS	calld/solaris.mk	/^PROGS = calld$/;"	m
+PROGS	exercises/freebsd.mk	/^PROGS =	getpw44bsd goodexit getlogin sizepipe$/;"	m
+PROGS	exercises/linux.mk	/^PROGS =	getpwsvr4 getpw44bsd goodexit getlogin sizepipe$/;"	m
+PROGS	exercises/macos.mk	/^PROGS =	getpw44bsd goodexit getlogin sizepipe$/;"	m
+PROGS	exercises/solaris.mk	/^PROGS =	getpwsvr4 goodexit getlogin sizepipe$/;"	m
+PROGS	file/freebsd.mk	/^PROGS =	access cdpwd changemod devrdev fileflags filetype ftw4 \\$/;"	m
+PROGS	file/linux.mk	/^PROGS =	access cdpwd changemod devrdev fileflags filetype ftw4 \\$/;"	m
+PROGS	file/macos.mk	/^PROGS =	access cdpwd changemod devrdev fileflags filetype ftw4 \\$/;"	m
+PROGS	file/solaris.mk	/^PROGS =	access cdpwd changemod devrdev fileflags filetype ftw4 \\$/;"	m
+PROGS	ipc/freebsd.mk	/^PROGS = add2 add2stdio fifo1 myuclc pipe1 pipe2 pipe4 popen1 popen2 spipe4 tshm$/;"	m
+PROGS	ipc/linux.mk	/^PROGS = add2 add2stdio fifo1 myuclc pipe1 pipe2 pipe4 popen1 popen2 spipe4 tshm$/;"	m
+PROGS	ipc/macos.mk	/^PROGS = add2 add2stdio fifo1 myuclc pipe1 pipe2 pipe4 popen1 popen2 spipe4 tshm$/;"	m
+PROGS	ipc/solaris.mk	/^PROGS = add2 add2stdio fifo1 myuclc pipe1 pipe2 pipe4 popen1 popen2 spipe4 tshm$/;"	m
+PROGS	ipp/freebsd.mk	/^PROGS = print printd$/;"	m
+PROGS	ipp/linux.mk	/^PROGS = print printd$/;"	m
+PROGS	ipp/macos.mk	/^PROGS = print printd$/;"	m
+PROGS	ipp/solaris.mk	/^PROGS = print printd$/;"	m
+PROGS	lock/freebsd.mk	/^PROGS =	deadlock mandatory$/;"	m
+PROGS	lock/linux.mk	/^PROGS =	deadlock mandatory$/;"	m
+PROGS	lock/macos.mk	/^PROGS =	deadlock mandatory$/;"	m
+PROGS	lock/solaris.mk	/^PROGS =	deadlock mandatory$/;"	m
+PROGS	mycat/freebsd.mk	/^PROGS = mycat fgetsfputs getcputc$/;"	m
+PROGS	mycat/linux.mk	/^PROGS = mycat fgetsfputs getcputc$/;"	m
+PROGS	mycat/macos.mk	/^PROGS = mycat fgetsfputs getcputc$/;"	m
+PROGS	mycat/solaris.mk	/^PROGS = mycat fgetsfputs getcputc$/;"	m
+PROGS	open.fe/freebsd.mk	/^PROGS = openclient$/;"	m
+PROGS	open.fe/linux.mk	/^PROGS = openclient$/;"	m
+PROGS	open.fe/macos.mk	/^PROGS = openclient$/;"	m
+PROGS	open.fe/solaris.mk	/^PROGS = openclient$/;"	m
+PROGS	open/freebsd.mk	/^PROGS = openclient$/;"	m
+PROGS	open/linux.mk	/^PROGS = openclient$/;"	m
+PROGS	open/macos.mk	/^PROGS = openclient$/;"	m
+PROGS	open/solaris.mk	/^PROGS = openclient$/;"	m
+PROGS	opend.fe/freebsd.mk	/^PROGS = opend$/;"	m
+PROGS	opend.fe/linux.mk	/^PROGS = opend$/;"	m
+PROGS	opend.fe/macos.mk	/^PROGS = opend$/;"	m
+PROGS	opend.fe/solaris.mk	/^PROGS = opend$/;"	m
+PROGS	opend/freebsd.mk	/^PROGS = opend.poll opend.select$/;"	m
+PROGS	opend/linux.mk	/^PROGS = opend.poll opend.select$/;"	m
+PROGS	opend/macos.mk	/^PROGS = opend.poll opend.select$/;"	m
+PROGS	opend/solaris.mk	/^PROGS = opend.poll opend.select$/;"	m
+PROGS	proc/freebsd.mk	/^PROGS =	echoall echoarg exec1 exec2 fork1 fork2 pracct pruids shell1 shell2 \\$/;"	m
+PROGS	proc/linux.mk	/^PROGS =	echoall echoarg exec1 exec2 fork1 fork2 pracct pruids shell1 shell2 \\$/;"	m
+PROGS	proc/macos.mk	/^PROGS =	echoall echoarg exec1 exec2 fork1 fork2 pracct pruids shell1 shell2 \\$/;"	m
+PROGS	proc/solaris.mk	/^PROGS =	echoall echoarg exec1 exec2 fork1 fork2 pracct pruids shell1 shell2 \\$/;"	m
+PROGS	pty/freebsd.mk	/^PROGS =	pty$/;"	m
+PROGS	pty/linux.mk	/^PROGS =	pty$/;"	m
+PROGS	pty/macos.mk	/^PROGS =	pty$/;"	m
+PROGS	pty/solaris.mk	/^PROGS =	pty$/;"	m
+PROGS	signals/freebsd.mk	/^PROGS =	critical mask read1 read2 reenter sigtstp \\$/;"	m
+PROGS	signals/linux.mk	/^PROGS =	child critical mask read1 read2 reenter sigtstp \\$/;"	m
+PROGS	signals/macos.mk	/^PROGS =	critical mask read1 read2 reenter sigtstp \\$/;"	m
+PROGS	signals/solaris.mk	/^PROGS =	child critical mask read1 read2 reenter sigtstp \\$/;"	m
+PROGS	sockets/freebsd.mk	/^PROGS = findsvc bo ruptime ruptimed ruptimed-fd ruptime-dg ruptimed-dg \\$/;"	m
+PROGS	sockets/linux.mk	/^PROGS = findsvc bo ruptime ruptimed ruptimed-fd ruptime-dg ruptimed-dg \\$/;"	m
+PROGS	sockets/macos.mk	/^PROGS = findsvc bo ruptime ruptimed ruptimed-fd ruptime-dg ruptimed-dg \\$/;"	m
+PROGS	sockets/solaris.mk	/^PROGS = findsvc bo ruptime ruptimed ruptimed-fd ruptime-dg ruptimed-dg \\$/;"	m
+PROGS	std/freebsd.mk	/^PROGS = conf options$/;"	m
+PROGS	std/linux.mk	/^PROGS = conf options$/;"	m
+PROGS	std/macos.mk	/^PROGS = conf options$/;"	m
+PROGS	std/solaris.mk	/^PROGS = conf options$/;"	m
+PROGS	stdio/freebsd.mk	/^PROGS = tempfiles tempnam$/;"	m
+PROGS	stdio/linux.mk	/^PROGS = buf tempfiles tempnam$/;"	m
+PROGS	stdio/macos.mk	/^PROGS = buf tempfiles tempnam$/;"	m
+PROGS	stdio/solaris.mk	/^PROGS = tempfiles tempnam$/;"	m
+PROGS	streams/freebsd.mk	/^PROGS=$/;"	m
+PROGS	streams/linux.mk	/^PROGS = #strlist t_isastream$/;"	m
+PROGS	streams/macos.mk	/^PROGS=$/;"	m
+PROGS	streams/solaris.mk	/^PROGS = strlist t_isastream$/;"	m
+PROGS	termios/freebsd.mk	/^PROGS =	csize settty t_getpass t_isatty t_raw t_ttyname winch$/;"	m
+PROGS	termios/linux.mk	/^PROGS =	csize settty t_getpass t_isatty t_raw t_ttyname winch$/;"	m
+PROGS	termios/macos.mk	/^PROGS =	csize settty t_getpass t_isatty t_raw t_ttyname winch$/;"	m
+PROGS	termios/solaris.mk	/^PROGS =	csize settty t_getpass t_isatty t_raw t_ttyname winch$/;"	m
+PROGS	threadctl/freebsd.mk	/^PROGS =	atfork timeout suspend$/;"	m
+PROGS	threadctl/linux.mk	/^PROGS =	atfork timeout suspend$/;"	m
+PROGS	threadctl/macos.mk	/^PROGS =	atfork timeout suspend$/;"	m
+PROGS	threadctl/solaris.mk	/^PROGS =	atfork timeout suspend$/;"	m
+PROGS	threads/freebsd.mk	/^PROGS =	threadid exitstatus cleanup badexit2$/;"	m
+PROGS	threads/linux.mk	/^PROGS =	threadid exitstatus cleanup badexit2$/;"	m
+PROGS	threads/macos.mk	/^PROGS =	threadid exitstatus cleanup badexit2$/;"	m
+PROGS	threads/solaris.mk	/^PROGS =	threadid exitstatus cleanup badexit2$/;"	m
+PR_TEXT	ipp/print.h	/^#define PR_TEXT	/;"	d
+PSCMD	proc/zombie.c	/^#define PSCMD	/;"	d	file:
+PTR_MAX	db/db.c	/^#define PTR_MAX /;"	d	file:
+PTR_SZ	db/db.c	/^#define PTR_SZ /;"	d	file:
+QLEN	ipp/print.h	/^#define QLEN /;"	d
+QLEN	lib/servlisten.c	/^#define QLEN	/;"	d	file:
+QLEN	sockets/ruptimed-fd.c	/^#define QLEN /;"	d	file:
+QLEN	sockets/ruptimed.c	/^#define QLEN /;"	d	file:
+QLEN	sockets/servlisten.c	/^#define QLEN	/;"	d	file:
+RANLIB	db/freebsd.mk	/^RANLIB     = ranlib$/;"	m
+RANLIB	db/linux.mk	/^RANLIB     = ranlib$/;"	m
+RANLIB	db/macos.mk	/^RANLIB     = ranlib$/;"	m
+RANLIB	lib/freebsd.mk	/^RANLIB     = ranlib$/;"	m
+RANLIB	lib/linux.mk	/^RANLIB     = ranlib$/;"	m
+RANLIB	lib/macos.mk	/^RANLIB     = ranlib$/;"	m
+RAW	lib/ttymodes.c	/^static enum { RESET, RAW, CBREAK }	ttystate = RESET;$/;"	e	enum:__anon9	file:
+REQDIR	ipp/print.h	/^#define REQDIR /;"	d
+RESET	lib/ttymodes.c	/^static enum { RESET, RAW, CBREAK }	ttystate = RESET;$/;"	e	enum:__anon9	file:
+RIGHTSLEN	sockets/recvfd2.c	/^#define RIGHTSLEN	/;"	d	file:
+RIGHTSLEN	sockets/sendfd2.c	/^#define RIGHTSLEN	/;"	d	file:
+RWRWRW	file/umask.c	/^#define RWRWRW /;"	d	file:
+SCM_CREDTYPE	sockets/recvfd2.c	/^#define SCM_CREDTYPE	/;"	d	file:
+SCM_CREDTYPE	sockets/sendfd2.c	/^#define SCM_CREDTYPE	/;"	d	file:
+SECTONSEC	threadctl/timeout.c	/^#define SECTONSEC /;"	d	file:
+SEP	db/db.c	/^#define SEP /;"	d	file:
+SHM_MODE	ipc/tshm.c	/^#define	SHM_MODE	/;"	d	file:
+SHM_SIZE	ipc/tshm.c	/^#define	SHM_SIZE	/;"	d	file:
+SIGBAD	signals/setops.c	/^#define	SIGBAD(/;"	d	file:
+SIG_ERR	include/apue.h	/^#define	SIG_ERR	/;"	d
+SIG_ERR	lib/apue.h	/^#define	SIG_ERR	/;"	d
+SIZE	advio/devzero.c	/^#define	SIZE	/;"	d	file:
+SPACE	db/db.c	/^#define SPACE /;"	d	file:
+SPOOLDIR	ipp/print.h	/^#define SPOOLDIR /;"	d
+STALE	lib/servaccept.c	/^#define	STALE	/;"	d	file:
+STALE	sockets/servaccept.c	/^#define	STALE	/;"	d	file:
+STATCLASS_CLIERR	ipp/ipp.h	/^#define STATCLASS_CLIERR(/;"	d
+STATCLASS_INFO	ipp/ipp.h	/^#define STATCLASS_INFO(/;"	d
+STATCLASS_OK	ipp/ipp.h	/^#define STATCLASS_OK(/;"	d
+STATCLASS_REDIR	ipp/ipp.h	/^#define STATCLASS_REDIR(/;"	d
+STATCLASS_SRVERR	ipp/ipp.h	/^#define STATCLASS_SRVERR(/;"	d
+STAT_CLI_ACCERR	ipp/ipp.h	/^#define STAT_CLI_ACCERR /;"	d
+STAT_CLI_ATTRCON	ipp/ipp.h	/^#define STAT_CLI_ATTRCON /;"	d
+STAT_CLI_BADFMT	ipp/ipp.h	/^#define STAT_CLI_BADFMT /;"	d
+STAT_CLI_BADREQ	ipp/ipp.h	/^#define STAT_CLI_BADREQ /;"	d
+STAT_CLI_COMPERR	ipp/ipp.h	/^#define STAT_CLI_COMPERR /;"	d
+STAT_CLI_FMTERR	ipp/ipp.h	/^#define STAT_CLI_FMTERR /;"	d
+STAT_CLI_FORBID	ipp/ipp.h	/^#define STAT_CLI_FORBID /;"	d
+STAT_CLI_NOAUTH	ipp/ipp.h	/^#define STAT_CLI_NOAUTH /;"	d
+STAT_CLI_NOCHAR	ipp/ipp.h	/^#define STAT_CLI_NOCHAR /;"	d
+STAT_CLI_NOCOMP	ipp/ipp.h	/^#define STAT_CLI_NOCOMP /;"	d
+STAT_CLI_NOPERM	ipp/ipp.h	/^#define STAT_CLI_NOPERM /;"	d
+STAT_CLI_NOSCHM	ipp/ipp.h	/^#define STAT_CLI_NOSCHM /;"	d
+STAT_CLI_NOTFND	ipp/ipp.h	/^#define STAT_CLI_NOTFND /;"	d
+STAT_CLI_NOTPOS	ipp/ipp.h	/^#define STAT_CLI_NOTPOS /;"	d
+STAT_CLI_NOTSUP	ipp/ipp.h	/^#define STAT_CLI_NOTSUP /;"	d
+STAT_CLI_OBJGONE	ipp/ipp.h	/^#define STAT_CLI_OBJGONE /;"	d
+STAT_CLI_TIMOUT	ipp/ipp.h	/^#define STAT_CLI_TIMOUT /;"	d
+STAT_CLI_TOOBIG	ipp/ipp.h	/^#define STAT_CLI_TOOBIG /;"	d
+STAT_CLI_TOOLNG	ipp/ipp.h	/^#define STAT_CLI_TOOLNG /;"	d
+STAT_OK	ipp/ipp.h	/^#define STAT_OK /;"	d
+STAT_OK_ATTRCON	ipp/ipp.h	/^#define STAT_OK_ATTRCON /;"	d
+STAT_OK_ATTRIGN	ipp/ipp.h	/^#define STAT_OK_ATTRIGN /;"	d
+STAT_SRV_BADVER	ipp/ipp.h	/^#define STAT_SRV_BADVER /;"	d
+STAT_SRV_CANCEL	ipp/ipp.h	/^#define STAT_SRV_CANCEL /;"	d
+STAT_SRV_DEVERR	ipp/ipp.h	/^#define STAT_SRV_DEVERR /;"	d
+STAT_SRV_INTERN	ipp/ipp.h	/^#define STAT_SRV_INTERN /;"	d
+STAT_SRV_NOMULTI	ipp/ipp.h	/^#define STAT_SRV_NOMULTI /;"	d
+STAT_SRV_NOTSUP	ipp/ipp.h	/^#define STAT_SRV_NOTSUP /;"	d
+STAT_SRV_REJECT	ipp/ipp.h	/^#define STAT_SRV_REJECT /;"	d
+STAT_SRV_TMPERR	ipp/ipp.h	/^#define STAT_SRV_TMPERR /;"	d
+STAT_SRV_TOOBUSY	ipp/ipp.h	/^#define STAT_SRV_TOOBUSY /;"	d
+STAT_SRV_UNAVAIL	ipp/ipp.h	/^#define STAT_SRV_UNAVAIL /;"	d
+SUSV3	lib/pathalloc.c	/^#define SUSV3	/;"	d	file:
+SYSTEMS	calld/calld.h	/^#define	SYSTEMS	/;"	d
+Sigfunc	include/apue.h	/^typedef	void	Sigfunc(int);	\/* for signal handlers *\/$/;"	t
+Sigfunc	lib/apue.h	/^typedef	void	Sigfunc(int);	\/* for signal handlers *\/$/;"	t
+Systems	calld/calld.h	/^} Systems;$/;"	t	typeref:struct:__anon4
+TAG_BOOLEAN	ipp/ipp.h	/^#define TAG_BOOLEAN /;"	d
+TAG_CHARSET	ipp/ipp.h	/^#define TAG_CHARSET /;"	d
+TAG_DATETIME	ipp/ipp.h	/^#define TAG_DATETIME /;"	d
+TAG_END_OF_ATTR	ipp/ipp.h	/^#define TAG_END_OF_ATTR /;"	d
+TAG_ENUM	ipp/ipp.h	/^#define TAG_ENUM /;"	d
+TAG_INTEGER	ipp/ipp.h	/^#define TAG_INTEGER /;"	d
+TAG_INTRANGE	ipp/ipp.h	/^#define TAG_INTRANGE /;"	d
+TAG_JOB_ATTR	ipp/ipp.h	/^#define TAG_JOB_ATTR /;"	d
+TAG_KEYWORD	ipp/ipp.h	/^#define TAG_KEYWORD /;"	d
+TAG_MIMETYPE	ipp/ipp.h	/^#define TAG_MIMETYPE /;"	d
+TAG_NAMEWLANG	ipp/ipp.h	/^#define TAG_NAMEWLANG /;"	d
+TAG_NAMEWOLANG	ipp/ipp.h	/^#define TAG_NAMEWOLANG /;"	d
+TAG_NATULANG	ipp/ipp.h	/^#define TAG_NATULANG /;"	d
+TAG_NONE	ipp/ipp.h	/^#define TAG_NONE /;"	d
+TAG_OCTSTR	ipp/ipp.h	/^#define TAG_OCTSTR /;"	d
+TAG_OPERATION_ATTR	ipp/ipp.h	/^#define TAG_OPERATION_ATTR /;"	d
+TAG_PRINTER_ATTR	ipp/ipp.h	/^#define TAG_PRINTER_ATTR /;"	d
+TAG_RESOLUTION	ipp/ipp.h	/^#define TAG_RESOLUTION /;"	d
+TAG_TEXTWLANG	ipp/ipp.h	/^#define TAG_TEXTWLANG /;"	d
+TAG_TEXTWOLANG	ipp/ipp.h	/^#define TAG_TEXTWOLANG /;"	d
+TAG_UNKNOWN	ipp/ipp.h	/^#define TAG_UNKNOWN /;"	d
+TAG_UNSUPPORTED	ipp/ipp.h	/^#define TAG_UNSUPPORTED /;"	d
+TAG_UNSUPP_ATTR	ipp/ipp.h	/^#define TAG_UNSUPP_ATTR /;"	d
+TAG_URI	ipp/ipp.h	/^#define TAG_URI /;"	d
+TAG_URISCHEME	ipp/ipp.h	/^#define TAG_URISCHEME /;"	d
+TELL_CHILD	include/apue.h	/^void	TELL_CHILD(pid_t);$/;"	p	signature:(pid_t)
+TELL_CHILD	ipc/tellwait.c	/^TELL_CHILD(pid_t pid)$/;"	f	signature:(pid_t pid)
+TELL_CHILD	lib/apue.h	/^void	TELL_CHILD(pid_t);$/;"	p	signature:(pid_t)
+TELL_CHILD	lib/tellwait.c	/^TELL_CHILD(pid_t pid)$/;"	f	signature:(pid_t pid)
+TELL_PARENT	include/apue.h	/^void	TELL_PARENT(pid_t);$/;"	p	signature:(pid_t)
+TELL_PARENT	ipc/tellwait.c	/^TELL_PARENT(pid_t pid)$/;"	f	signature:(pid_t pid)
+TELL_PARENT	lib/apue.h	/^void	TELL_PARENT(pid_t);$/;"	p	signature:(pid_t)
+TELL_PARENT	lib/tellwait.c	/^TELL_PARENT(pid_t pid)$/;"	f	signature:(pid_t pid)
+TELL_WAIT	include/apue.h	/^void	TELL_WAIT(void);		\/* parent\/child from {Sec race_conditions} *\/$/;"	p	signature:(void)
+TELL_WAIT	ipc/tellwait.c	/^TELL_WAIT(void)$/;"	f	signature:(void)
+TELL_WAIT	lib/apue.h	/^void	TELL_WAIT(void);		\/* parent\/child from {Sec race_conditions} *\/$/;"	p	signature:(void)
+TELL_WAIT	lib/tellwait.c	/^TELL_WAIT(void)$/;"	f	signature:(void)
+TIMEOUT	sockets/ruptime-dg.c	/^#define TIMEOUT	/;"	d	file:
+TOK_ADD	environ/cmd1.c	/^#define	TOK_ADD	/;"	d	file:
+TOK_ADD	environ/cmd2.c	/^#define	TOK_ADD	/;"	d	file:
+USECTONSEC	threadctl/timeout.c	/^#define USECTONSEC /;"	d	file:
+USERNM_MAX	ipp/print.h	/^#define USERNM_MAX /;"	d
+WAIT_CHILD	include/apue.h	/^void	WAIT_CHILD(void);$/;"	p	signature:(void)
+WAIT_CHILD	ipc/tellwait.c	/^WAIT_CHILD(void)$/;"	f	signature:(void)
+WAIT_CHILD	lib/apue.h	/^void	WAIT_CHILD(void);$/;"	p	signature:(void)
+WAIT_CHILD	lib/tellwait.c	/^WAIT_CHILD(void)$/;"	f	signature:(void)
+WAIT_PARENT	include/apue.h	/^void	WAIT_PARENT(void);$/;"	p	signature:(void)
+WAIT_PARENT	ipc/tellwait.c	/^WAIT_PARENT(void)$/;"	f	signature:(void)
+WAIT_PARENT	lib/apue.h	/^void	WAIT_PARENT(void);$/;"	p	signature:(void)
+WAIT_PARENT	lib/tellwait.c	/^WAIT_PARENT(void)$/;"	f	signature:(void)
+WHITE	calld/calld.h	/^#define	WHITE	/;"	d
+WHITE	lib/bufargs.c	/^#define	WHITE	/;"	d	file:
+_APUE_DB_H	db/apue_db.h	/^#define _APUE_DB_H$/;"	d
+_APUE_H	include/apue.h	/^#define	_APUE_H$/;"	d
+_APUE_H	lib/apue.h	/^#define	_APUE_H$/;"	d
+_IO_LINE_BUF	stdio/buf.c	/^#define _IO_LINE_BUF	/;"	d	file:
+_IO_UNBUFFERED	stdio/buf.c	/^#define _IO_UNBUFFERED	/;"	d	file:
+_IO_file_flags	stdio/buf.c	/^#define _IO_file_flags	/;"	d	file:
+_IPP_H	ipp/ipp.h	/^#define _IPP_H$/;"	d
+_PRINT_H	ipp/print.h	/^#define _PRINT_H$/;"	d
+_XOPEN_SOURCE	include/apue.h	/^#define _XOPEN_SOURCE	/;"	d
+_XOPEN_SOURCE	lib/apue.h	/^#define _XOPEN_SOURCE	/;"	d
+__anon2::chainoff	db/db.c	/^  off_t  chainoff; \/* offset of hash chain for this index record *\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::cnt_delerr	db/db.c	/^  COUNT  cnt_delerr;   \/* delete error *\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::cnt_delok	db/db.c	/^  COUNT  cnt_delok;    \/* delete OK *\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::cnt_fetcherr	db/db.c	/^  COUNT  cnt_fetcherr; \/* fetch error *\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::cnt_fetchok	db/db.c	/^  COUNT  cnt_fetchok;  \/* fetch OK *\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::cnt_nextrec	db/db.c	/^  COUNT  cnt_nextrec;  \/* nextrec *\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::cnt_stor1	db/db.c	/^  COUNT  cnt_stor1;    \/* store: DB_INSERT, no empty, appended *\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::cnt_stor2	db/db.c	/^  COUNT  cnt_stor2;    \/* store: DB_INSERT, found empty, reused *\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::cnt_stor3	db/db.c	/^  COUNT  cnt_stor3;    \/* store: DB_REPLACE, diff len, appended *\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::cnt_stor4	db/db.c	/^  COUNT  cnt_stor4;    \/* store: DB_REPLACE, same len, overwrote *\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::cnt_storerr	db/db.c	/^  COUNT  cnt_storerr;  \/* store error *\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::datbuf	db/db.c	/^  char  *datbuf; \/* malloc'ed buffer for data record*\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::datfd	db/db.c	/^  int    datfd;  \/* fd for data file *\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::datlen	db/db.c	/^  size_t datlen; \/* length of data record *\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::datoff	db/db.c	/^  off_t  datoff; \/* offset in data file of data record *\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::hashoff	db/db.c	/^  off_t  hashoff;  \/* offset in index file of hash table *\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::idxbuf	db/db.c	/^  char  *idxbuf; \/* malloc'ed buffer for index record *\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::idxfd	db/db.c	/^  int    idxfd;  \/* fd for index file *\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::idxlen	db/db.c	/^  size_t idxlen; \/* length of index record *\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::idxoff	db/db.c	/^  off_t  idxoff; \/* offset in index file of index record *\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::name	db/db.c	/^  char  *name;   \/* name db was opened under *\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::nhash	db/db.c	/^  DBHASH nhash;    \/* current hash table size *\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::ptroff	db/db.c	/^  off_t  ptroff; \/* chain ptr offset pointing to this idx record *\/$/;"	m	struct:__anon2	file:	access:public
+__anon2::ptrval	db/db.c	/^  off_t  ptrval; \/* contents of chain ptr in index record *\/$/;"	m	struct:__anon2	file:	access:public
+__anon3::Debug	calld/calld.h	/^  int	Debug;				\/* option from client *\/$/;"	m	struct:__anon3	access:public
+__anon3::childdone	calld/calld.h	/^  int	childdone;	\/* nonzero when SIGCHLD from dialing child recvd:$/;"	m	struct:__anon3	access:public
+__anon3::fd	calld/calld.h	/^  int	fd;			\/* fd, or -1 if available *\/$/;"	m	struct:__anon3	access:public
+__anon3::foundone	calld/calld.h	/^  long	foundone;	\/* true if we find a matching sysfile entry *\/$/;"	m	struct:__anon3	access:public
+__anon3::parity	calld/calld.h	/^  enum parity parity;		\/* option from client *\/$/;"	m	struct:__anon3	typeref:enum:__anon3::parity	access:public
+__anon3::pid	calld/calld.h	/^  pid_t	pid;		\/* child pid while dialing *\/$/;"	m	struct:__anon3	access:public
+__anon3::speed	calld/calld.h	/^  char	speed[MAXSPEEDSTR];	\/* option from client *\/$/;"	m	struct:__anon3	access:public
+__anon3::sysftell	calld/calld.h	/^  long	sysftell;	\/* next line to read in Systems file *\/$/;"	m	struct:__anon3	access:public
+__anon3::sysname	calld/calld.h	/^  char	sysname[MAXSYSNAME];\/* option from client *\/$/;"	m	struct:__anon3	access:public
+__anon3::uid	calld/calld.h	/^  uid_t	uid;		\/* client's user ID *\/$/;"	m	struct:__anon3	access:public
+__anon4::login	calld/calld.h	/^  char	*login;		\/* uucp login chat (ignored) *\/$/;"	m	struct:__anon4	access:public
+__anon4::name	calld/calld.h	/^  char	*name;		\/* system name *\/$/;"	m	struct:__anon4	access:public
+__anon4::phone	calld/calld.h	/^  char	*phone;		\/* phone number or "-" if direct connect *\/$/;"	m	struct:__anon4	access:public
+__anon4::time	calld/calld.h	/^  char	*time;		\/* (e.g., "Any") time to call (ignored) *\/$/;"	m	struct:__anon4	access:public
+__anon4::type	calld/calld.h	/^  char	*type;		\/* (e.g., "ACU") or system name if direct connect *\/$/;"	m	struct:__anon4	access:public
+__anon5::dialer	calld/calld.h	/^  char	*dialer;	\/* name of dialer in Dialers *\/$/;"	m	struct:__anon5	access:public
+__anon5::line	calld/calld.h	/^  char	*line;		\/* (e.g., "cua0") without preceding "\/dev\/" *\/$/;"	m	struct:__anon5	access:public
+__anon5::line2	calld/calld.h	/^  char	*line2;		\/* (ignored) *\/$/;"	m	struct:__anon5	access:public
+__anon5::type	calld/calld.h	/^  char	*type;		\/* (e.g., "ACU") matched by type in Systems *\/$/;"	m	struct:__anon5	access:public
+__anon6::dialer	calld/calld.h	/^  char	*dialer;	\/* matched by dialer in Devices *\/$/;"	m	struct:__anon6	access:public
+__anon6::expsend	calld/calld.h	/^  char	*expsend;	\/* expect\/send chat *\/$/;"	m	struct:__anon6	access:public
+__anon6::sub	calld/calld.h	/^  char	*sub;		\/* phone number substitution string (ignored) *\/$/;"	m	struct:__anon6	access:public
+__anon7::line	calld/lock.c	/^  char	*line;	\/* points to malloc()ed area *\/$/;"	m	struct:__anon7	file:	access:public
+__anon7::pid	calld/lock.c	/^  pid_t	pid;	\/* but unlock by process ID *\/$/;"	m	struct:__anon7	file:	access:public
+__anon8::fd	opend/opend.h	/^  int	fd;			\/* fd, or -1 if available *\/$/;"	m	struct:__anon8	access:public
+__anon8::uid	opend/opend.h	/^  uid_t	uid;$/;"	m	struct:__anon8	access:public
+_db_alloc	db/db.c	/^_db_alloc(int namelen)$/;"	f	file:	signature:(int namelen)
+_db_alloc	db/db.c	/^static DB     *_db_alloc(int);$/;"	p	file:	signature:(int)
+_db_dodelete	db/db.c	/^_db_dodelete(DB *db)$/;"	f	file:	signature:(DB *db)
+_db_dodelete	db/db.c	/^static void    _db_dodelete(DB *);$/;"	p	file:	signature:(DB *)
+_db_find_and_lock	db/db.c	/^_db_find_and_lock(DB *db, const char *key, int writelock)$/;"	f	file:	signature:(DB *db, const char *key, int writelock)
+_db_find_and_lock	db/db.c	/^static int	    _db_find_and_lock(DB *, const char *, int);$/;"	p	file:	signature:(DB *, const char *, int)
+_db_findfree	db/db.c	/^_db_findfree(DB *db, int keylen, int datlen)$/;"	f	file:	signature:(DB *db, int keylen, int datlen)
+_db_findfree	db/db.c	/^static int     _db_findfree(DB *, int, int);$/;"	p	file:	signature:(DB *, int, int)
+_db_free	db/db.c	/^_db_free(DB *db)$/;"	f	file:	signature:(DB *db)
+_db_free	db/db.c	/^static void    _db_free(DB *);$/;"	p	file:	signature:(DB *)
+_db_hash	db/db.c	/^_db_hash(DB *db, const char *key)$/;"	f	file:	signature:(DB *db, const char *key)
+_db_hash	db/db.c	/^static DBHASH  _db_hash(DB *, const char *);$/;"	p	file:	signature:(DB *, const char *)
+_db_readdat	db/db.c	/^_db_readdat(DB *db)$/;"	f	file:	signature:(DB *db)
+_db_readdat	db/db.c	/^static char   *_db_readdat(DB *);$/;"	p	file:	signature:(DB *)
+_db_readidx	db/db.c	/^_db_readidx(DB *db, off_t offset)$/;"	f	file:	signature:(DB *db, off_t offset)
+_db_readidx	db/db.c	/^static off_t   _db_readidx(DB *, off_t);$/;"	p	file:	signature:(DB *, off_t)
+_db_readptr	db/db.c	/^_db_readptr(DB *db, off_t offset)$/;"	f	file:	signature:(DB *db, off_t offset)
+_db_readptr	db/db.c	/^static off_t   _db_readptr(DB *, off_t);$/;"	p	file:	signature:(DB *, off_t)
+_db_writedat	db/db.c	/^_db_writedat(DB *db, const char *data, off_t offset, int whence)$/;"	f	file:	signature:(DB *db, const char *data, off_t offset, int whence)
+_db_writedat	db/db.c	/^static void    _db_writedat(DB *, const char *, off_t, int);$/;"	p	file:	signature:(DB *, const char *, off_t, int)
+_db_writeidx	db/db.c	/^_db_writeidx(DB *db, const char *key,$/;"	f	file:	signature:(DB *db, const char *key, off_t offset, int whence, off_t ptrval)
+_db_writeidx	db/db.c	/^static void    _db_writeidx(DB *, const char *, off_t, int, off_t);$/;"	p	file:	signature:(DB *, const char *, off_t, int, off_t)
+_db_writeptr	db/db.c	/^_db_writeptr(DB *db, off_t offset, off_t ptrval)$/;"	f	file:	signature:(DB *db, off_t offset, off_t ptrval)
+_db_writeptr	db/db.c	/^static void    _db_writeptr(DB *, off_t, off_t);$/;"	p	file:	signature:(DB *, off_t, off_t)
+a	exercises/goodexit.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+a	threads/badexit2.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+abort	signals/abort.c	/^abort(void)			\/* POSIX-style abort() function *\/$/;"	f	signature:(void)
+abort.c	signals/abort.c	1;"	F
+access.c	file/access.c	1;"	F
+add	termios/ttyname.c	/^add(char *dirname)$/;"	f	file:	signature:(char *dirname)
+add2.c	ipc/add2.c	1;"	F
+add2stdio.c	ipc/add2stdio.c	1;"	F
+add_job	ipp/printd.c	/^add_job(struct printreq *reqp, long jobid)$/;"	f	signature:(struct printreq *reqp, long jobid)
+add_job	ipp/printd.c	/^void		add_job(struct printreq *, long);$/;"	p	file:	signature:(struct printreq *, long)
+add_option	ipp/printd.c	/^add_option(char *cp, int tag, char *optname, char *optval)$/;"	f	signature:(char *cp, int tag, char *optname, char *optval)
+add_worker	ipp/printd.c	/^add_worker(pthread_t tid, int sockfd)$/;"	f	signature:(pthread_t tid, int sockfd)
+add_worker	ipp/printd.c	/^void		add_worker(pthread_t, int);$/;"	p	file:	signature:(pthread_t, int)
+allset	calld/loop.c	/^static fd_set	allset;$/;"	v	file:
+already_running	daemons/reread.c	/^extern int already_running(void);$/;"	p	file:	signature:(void)
+already_running	daemons/reread2.c	/^extern int already_running(void);$/;"	p	file:	signature:(void)
+already_running	daemons/single.c	/^already_running(void)$/;"	f	signature:(void)
+apue.h	include/apue.h	1;"	F
+apue.h	lib/apue.h	1;"	F
+apue_db.h	db/apue_db.h	1;"	F
+array	ipc/tshm.c	/^char	array[ARRAY_SIZE];	\/* uninitialized data = bss *\/$/;"	v
+asyncsocket.c	exercises/asyncsocket.c	1;"	F
+atfork.c	threadctl/atfork.c	1;"	F
+attr	threadctl/timeout.c	/^pthread_mutexattr_t attr;$/;"	v
+attr_group	ipp/ipp.h	/^	char    attr_group[1];	\/* start of optional attributes group *\/$/;"	m	struct:ipp_hdr	access:public
+b	exercises/goodexit.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+b	threads/badexit2.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+badexit2.c	threads/badexit2.c	1;"	F
+bindunix.c	sockets/bindunix.c	1;"	F
+bo.c	sockets/bo.c	1;"	F
+bsd_ptyopen.c	lib/bsd_ptyopen.c	1;"	F
+buf	advio/nonblockw.c	/^char	buf[500000];$/;"	v
+buf	proc/fork1.c	/^char	buf[] = "a write to stdout\\n";$/;"	v
+buf.c	stdio/buf.c	1;"	F
+buf1	file/hole.c	/^char	buf1[] = "abcdefghij";$/;"	v
+buf2	file/hole.c	/^char	buf2[] = "ABCDEFGHIJ";$/;"	v
+buf_args	include/apue.h	/^int		 buf_args(char *, int (*func)(int,$/;"	p	signature:(char *, int (*func)(int, char **))
+buf_args	lib/apue.h	/^int		 buf_args(char *, int (*func)(int,$/;"	p	signature:(char *, int (*func)(int, char **))
+buf_args	lib/bufargs.c	/^buf_args(char *buf, int (*optfunc)(int, char **))$/;"	f	signature:(char *buf, int (*optfunc)(int, char **))
+bufargs.c	lib/bufargs.c	1;"	F
+build_qonstart	ipp/printd.c	/^build_qonstart(void)$/;"	f	signature:(void)
+build_qonstart	ipp/printd.c	/^void		build_qonstart(void);$/;"	p	file:	signature:(void)
+c	exercises/goodexit.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+c	threads/badexit2.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+call	call/call.c	/^call(const char *args)$/;"	f	signature:(const char *args)
+call	call/call.h	/^int		call(const char *);$/;"	p	signature:(const char *)
+call.c	call/call.c	1;"	F
+call.h	call/call.h	1;"	F
+calld.h	calld/calld.h	1;"	F
+canjump	signals/mask.c	/^static volatile sig_atomic_t	canjump;$/;"	v	file:
+catgetmsg.c	advio/catgetmsg.c	1;"	F
+caught_alrm	calld/expectstr.c	/^static volatile sig_atomic_t	caught_alrm;$/;"	v	file:
+cdpwd.c	file/cdpwd.c	1;"	F
+chainoff	db/db.c	/^  off_t  chainoff; \/* offset of hash chain for this index record *\/$/;"	m	struct:__anon2	file:	access:public
+changemod.c	file/changemod.c	1;"	F
+charatatime	proc/tellwait1.c	/^charatatime(char *str)$/;"	f	file:	signature:(char *str)
+charatatime	proc/tellwait1.c	/^static void charatatime(char *);$/;"	p	file:	signature:(char *)
+charatatime	proc/tellwait2.c	/^charatatime(char *str)$/;"	f	file:	signature:(char *str)
+charatatime	proc/tellwait2.c	/^static void charatatime(char *);$/;"	p	file:	signature:(char *)
+child	threadctl/atfork.c	/^child(void)$/;"	f	signature:(void)
+child.c	signals/child.c	1;"	F
+child_dial	calld/calld.h	/^void  child_dial(Client *);					\/* childdial.c *\/$/;"	p	signature:(Client *)
+child_dial	calld/childdial.c	/^child_dial(Client *cliptr)$/;"	f	signature:(Client *cliptr)
+child_done	calld/loop.c	/^child_done(int maxi)$/;"	f	file:	signature:(int maxi)
+child_done	calld/loop.c	/^static void child_done(int);$/;"	p	file:	signature:(int)
+childdial.c	calld/childdial.c	1;"	F
+childdone	calld/calld.h	/^  int	childdone;	\/* nonzero when SIGCHLD from dialing child recvd:$/;"	m	struct:__anon3	access:public
+childpid	lib/popen.c	/^static pid_t	*childpid = NULL;$/;"	v	file:
+chld_flag	calld/calld.h	/^extern volatile sig_atomic_t  chld_flag;	\/* when SIGCHLD occurs *\/$/;"	x
+chld_flag	calld/main.c	/^volatile sig_atomic_t chld_flag;$/;"	v
+clconn.c	sockets/clconn.c	1;"	F
+cleanup	termios/ttyname.c	/^cleanup(void)$/;"	f	file:	signature:(void)
+cleanup	threads/cleanup.c	/^cleanup(void *arg)$/;"	f	signature:(void *arg)
+cleanup.c	threads/cleanup.c	1;"	F
+cli_args	calld/calld.h	/^int   cli_args(int, char **);				\/* cliargs.c *\/$/;"	p	signature:(int, char **)
+cli_args	calld/cliargs.c	/^cli_args(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+cli_args	opend.fe/cliargs.c	/^cli_args(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+cli_args	opend.fe/opend.h	/^int		 cli_args(int, char **);$/;"	p	signature:(int, char **)
+cli_args	opend/opend.h	/^int		 cli_args(int, char **);$/;"	p	signature:(int, char **)
+cli_conn	include/apue.h	/^int		 cli_conn(const char *);		\/* {Progs cliconn_streams cliconn_sockets} *\/$/;"	p	signature:(const char *)
+cli_conn	lib/apue.h	/^int		 cli_conn(const char *);		\/* {Progs cliconn_streams cliconn_sockets} *\/$/;"	p	signature:(const char *)
+cli_conn	lib/cliconn.c	/^cli_conn(const char *name)$/;"	f	signature:(const char *name)
+cli_conn	sockets/cliconn.c	/^cli_conn(const char *name)$/;"	f	signature:(const char *name)
+cli_conn	streams/cliconn.c	/^cli_conn(const char *name)$/;"	f	signature:(const char *name)
+cli_done	calld/loop.c	/^cli_done(int clifd)$/;"	f	file:	signature:(int clifd)
+cli_done	calld/loop.c	/^static void	cli_done(int);$/;"	p	file:	signature:(int)
+cliargs.c	calld/cliargs.c	1;"	F
+cliargs.c	opend.fe/cliargs.c	1;"	F
+cliconn.c	lib/cliconn.c	1;"	F
+cliconn.c	sockets/cliconn.c	1;"	F
+cliconn.c	streams/cliconn.c	1;"	F
+client	calld/calld.h	/^extern Client *client;     \/* ptr to malloc'ed array of Client structs *\/$/;"	x
+client	calld/main.c	/^Client		*client = NULL;$/;"	v
+client	opend/main.c	/^Client	*client = NULL;$/;"	v
+client	opend/opend.h	/^extern Client	*client;		\/* ptr to malloc'ed array *\/$/;"	x
+client.c	calld/client.c	1;"	F
+client.c	opend/client.c	1;"	F
+client_add	calld/calld.h	/^int   client_add(int, uid_t);				\/* client.c *\/$/;"	p	signature:(int, uid_t)
+client_add	calld/client.c	/^client_add(int fd, uid_t uid)$/;"	f	signature:(int fd, uid_t uid)
+client_add	opend/client.c	/^client_add(int fd, uid_t uid)$/;"	f	signature:(int fd, uid_t uid)
+client_add	opend/opend.h	/^int		 client_add(int, uid_t);$/;"	p	signature:(int, uid_t)
+client_alloc	calld/client.c	/^client_alloc(void)		\/* alloc more entries in the client[] array *\/$/;"	f	file:	signature:(void)
+client_alloc	opend/client.c	/^client_alloc(void)		\/* alloc more entries in the client[] array *\/$/;"	f	file:	signature:(void)
+client_cleanup	ipp/printd.c	/^client_cleanup(void *arg)$/;"	f	signature:(void *arg)
+client_cleanup	ipp/printd.c	/^void		client_cleanup(void *);$/;"	p	file:	signature:(void *)
+client_del	calld/calld.h	/^void  client_del(int);$/;"	p	signature:(int)
+client_del	calld/client.c	/^client_del(int fd)$/;"	f	signature:(int fd)
+client_del	opend/client.c	/^client_del(int fd)$/;"	f	signature:(int fd)
+client_del	opend/opend.h	/^void	 client_del(int);$/;"	p	signature:(int)
+client_sigchld	calld/calld.h	/^void  client_sigchld(pid_t, int);$/;"	p	signature:(pid_t, int)
+client_sigchld	calld/client.c	/^client_sigchld(pid_t pid, int stat)$/;"	f	signature:(pid_t pid, int stat)
+client_size	calld/calld.h	/^extern int    client_size; \/* # entries in client[] array *\/$/;"	x
+client_size	calld/main.c	/^int			clifd, log_to_stderr, client_size;$/;"	v
+client_size	opend/main.c	/^int		 debug, oflag, client_size, log_to_stderr;$/;"	v
+client_size	opend/opend.h	/^extern int		 client_size;	\/* # entries in client[] array *\/$/;"	x
+client_thread	ipp/printd.c	/^client_thread(void *arg)$/;"	f	signature:(void *arg)
+client_thread	ipp/printd.c	/^void		*client_thread(void *);$/;"	p	file:	signature:(void *)
+clifd	calld/calld.h	/^extern int    clifd;$/;"	x
+clifd	calld/main.c	/^int			clifd, log_to_stderr, client_size;$/;"	v
+clr_fl	include/apue.h	/^void	 clr_fl(int, int);				\/* {Prog setfl} *\/$/;"	p	signature:(int, int)
+clr_fl	lib/apue.h	/^void	 clr_fl(int, int);				\/* {Prog setfl} *\/$/;"	p	signature:(int, int)
+clr_fl	lib/clrfl.c	/^clr_fl(int fd, int flags)$/;"	f	signature:(int fd, int flags)
+clrasync	exercises/asyncsocket.c	/^clrasync(int sockfd)$/;"	f	signature:(int sockfd)
+clrfl.c	lib/clrfl.c	1;"	F
+cmd1.c	environ/cmd1.c	1;"	F
+cmd2.c	environ/cmd2.c	1;"	F
+cmd_add	environ/cmd1.c	/^cmd_add(void)$/;"	f	signature:(void)
+cmd_add	environ/cmd1.c	/^void	cmd_add(void);$/;"	p	file:	signature:(void)
+cmd_add	environ/cmd2.c	/^cmd_add(void)$/;"	f	signature:(void)
+cmdargs	call/takeput.c	/^static char	cmdargs[MAXLINE];$/;"	v	file:
+cmptr	lib/recvfd.c	/^static struct cmsghdr	*cmptr = NULL;		\/* malloc'ed first time *\/$/;"	v	typeref:struct:cmsghdr	file:
+cmptr	lib/sendfd.c	/^static struct cmsghdr	*cmptr = NULL;	\/* malloc'ed first time *\/$/;"	v	typeref:struct:cmsghdr	file:
+cmptr	sockets/recvfd.c	/^static struct cmsghdr	*cmptr = NULL;		\/* malloc'ed first time *\/$/;"	v	typeref:struct:cmsghdr	file:
+cmptr	sockets/recvfd2.c	/^static struct cmsghdr	*cmptr = NULL;		\/* malloc'ed first time *\/$/;"	v	typeref:struct:cmsghdr	file:
+cmptr	sockets/sendfd.c	/^static struct cmsghdr	*cmptr = NULL;	\/* malloc'ed first time *\/$/;"	v	typeref:struct:cmsghdr	file:
+cmptr	sockets/sendfd2.c	/^static struct cmsghdr	*cmptr = NULL;	\/* malloc'ed first time *\/$/;"	v	typeref:struct:cmsghdr	file:
+cnt_delerr	db/db.c	/^  COUNT  cnt_delerr;   \/* delete error *\/$/;"	m	struct:__anon2	file:	access:public
+cnt_delok	db/db.c	/^  COUNT  cnt_delok;    \/* delete OK *\/$/;"	m	struct:__anon2	file:	access:public
+cnt_fetcherr	db/db.c	/^  COUNT  cnt_fetcherr; \/* fetch error *\/$/;"	m	struct:__anon2	file:	access:public
+cnt_fetchok	db/db.c	/^  COUNT  cnt_fetchok;  \/* fetch OK *\/$/;"	m	struct:__anon2	file:	access:public
+cnt_nextrec	db/db.c	/^  COUNT  cnt_nextrec;  \/* nextrec *\/$/;"	m	struct:__anon2	file:	access:public
+cnt_stor1	db/db.c	/^  COUNT  cnt_stor1;    \/* store: DB_INSERT, no empty, appended *\/$/;"	m	struct:__anon2	file:	access:public
+cnt_stor2	db/db.c	/^  COUNT  cnt_stor2;    \/* store: DB_INSERT, found empty, reused *\/$/;"	m	struct:__anon2	file:	access:public
+cnt_stor3	db/db.c	/^  COUNT  cnt_stor3;    \/* store: DB_REPLACE, diff len, appended *\/$/;"	m	struct:__anon2	file:	access:public
+cnt_stor4	db/db.c	/^  COUNT  cnt_stor4;    \/* store: DB_REPLACE, same len, overwrote *\/$/;"	m	struct:__anon2	file:	access:public
+cnt_storerr	db/db.c	/^  COUNT  cnt_storerr;  \/* store error *\/$/;"	m	struct:__anon2	file:	access:public
+compt2ulong	proc/pracct.c	/^compt2ulong(comp_t comptime)	\/* convert comp_t to unsigned long *\/$/;"	f	file:	signature:(comp_t comptime)
+condvar.c	threads/condvar.c	1;"	F
+configlock	ipp/printd.c	/^pthread_mutex_t		configlock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+connect_retry	ipp/print.h	/^extern int connect_retry(int, const struct sockaddr *, socklen_t);$/;"	p	signature:(int, const struct sockaddr *, socklen_t)
+connect_retry	sockets/clconn.c	/^connect_retry(int sockfd, const struct sockaddr *addr, socklen_t alen)$/;"	f	signature:(int sockfd, const struct sockaddr *addr, socklen_t alen)
+connect_retry	sockets/ruptime.c	/^extern int connect_retry(int, const struct sockaddr *, socklen_t);$/;"	p	file:	signature:(int, const struct sockaddr *, socklen_t)
+critical.c	signals/critical.c	1;"	F
+csize.c	termios/csize.c	1;"	F
+csopen	open.fe/open.c	/^csopen(char *name, int oflag)$/;"	f	signature:(char *name, int oflag)
+csopen	open.fe/open.h	/^int		csopen(char *, int);$/;"	p	signature:(char *, int)
+csopen	open/open.c	/^csopen(char *name, int oflag)$/;"	f	signature:(char *name, int oflag)
+csopen	open/open.h	/^int		csopen(char *, int);$/;"	p	signature:(char *, int)
+ctermid	termios/ctermid.c	/^ctermid(char *str)$/;"	f	signature:(char *str)
+ctermid.c	termios/ctermid.c	1;"	F
+ctermid_name	termios/ctermid.c	/^static char	ctermid_name[L_ctermid];$/;"	v	file:
+ctl_str	calld/calld.h	/^char  *ctl_str(unsigned char);				\/* ctlstr.c *\/$/;"	p	signature:(unsigned char)
+ctl_str	calld/ctlstr.c	/^ctl_str(unsigned char c)$/;"	f	signature:(unsigned char c)
+ctlstr.c	calld/ctlstr.c	1;"	F
+d	exercises/goodexit.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+d	threads/badexit2.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+d_name	termios/ttyname.c	/^	char			*d_name;$/;"	m	struct:devdir	file:	access:public
+d_next	termios/ttyname.c	/^	struct devdir	*d_next;$/;"	m	struct:devdir	typeref:struct:devdir::devdir	file:	access:public
+daemonize	daemons/init.c	/^daemonize(const char *cmd)$/;"	f	signature:(const char *cmd)
+daemonize	include/apue.h	/^void	 daemonize(const char *);			\/* {Prog daemoninit} *\/$/;"	p	signature:(const char *)
+daemonize	lib/apue.h	/^void	 daemonize(const char *);			\/* {Prog daemoninit} *\/$/;"	p	signature:(const char *)
+daemonize	lib/daemonize.c	/^daemonize(const char *cmd)$/;"	f	signature:(const char *cmd)
+daemonize.c	lib/daemonize.c	1;"	F
+datbuf	db/db.c	/^  char  *datbuf; \/* malloc'ed buffer for data record*\/$/;"	m	struct:__anon2	file:	access:public
+datfd	db/db.c	/^  int    datfd;  \/* fd for data file *\/$/;"	m	struct:__anon2	file:	access:public
+datlen	db/db.c	/^  size_t datlen; \/* length of data record *\/$/;"	m	struct:__anon2	file:	access:public
+datoff	db/db.c	/^  off_t  datoff; \/* offset in data file of data record *\/$/;"	m	struct:__anon2	file:	access:public
+db.c	db/db.c	1;"	F
+db_close	db/apue_db.h	/^void      db_close(DBHANDLE);$/;"	p	signature:(DBHANDLE)
+db_close	db/db.c	/^db_close(DBHANDLE h)$/;"	f	signature:(DBHANDLE h)
+db_delete	db/apue_db.h	/^int       db_delete(DBHANDLE, const char *);$/;"	p	signature:(DBHANDLE, const char *)
+db_delete	db/db.c	/^db_delete(DBHANDLE h, const char *key)$/;"	f	signature:(DBHANDLE h, const char *key)
+db_fetch	db/apue_db.h	/^char     *db_fetch(DBHANDLE, const char *);$/;"	p	signature:(DBHANDLE, const char *)
+db_fetch	db/db.c	/^db_fetch(DBHANDLE h, const char *key)$/;"	f	signature:(DBHANDLE h, const char *key)
+db_nextrec	db/apue_db.h	/^char     *db_nextrec(DBHANDLE, char *);$/;"	p	signature:(DBHANDLE, char *)
+db_nextrec	db/db.c	/^db_nextrec(DBHANDLE h, char *key)$/;"	f	signature:(DBHANDLE h, char *key)
+db_open	db/apue_db.h	/^DBHANDLE  db_open(const char *, int, ...);$/;"	p	signature:(const char *, int, ...)
+db_open	db/db.c	/^db_open(const char *pathname, int oflag, ...)$/;"	f	signature:(const char *pathname, int oflag, ...)
+db_rewind	db/apue_db.h	/^void      db_rewind(DBHANDLE);$/;"	p	signature:(DBHANDLE)
+db_rewind	db/db.c	/^db_rewind(DBHANDLE h)$/;"	f	signature:(DBHANDLE h)
+db_store	db/apue_db.h	/^int       db_store(DBHANDLE, const char *, const char *, int);$/;"	p	signature:(DBHANDLE, const char *, const char *, int)
+db_store	db/db.c	/^db_store(DBHANDLE h, const char *key, const char *data, int flag)$/;"	f	signature:(DBHANDLE h, const char *key, const char *data, int flag)
+deadlock.c	lock/deadlock.c	1;"	F
+debug	opend/main.c	/^int		 debug, oflag, client_size, log_to_stderr;$/;"	v
+debug	opend/opend.h	/^extern int	 debug;		\/* nonzero if interactive (not daemon) *\/$/;"	x
+debug.c	calld/debug.c	1;"	F
+detach.c	threadctl/detach.c	1;"	F
+dev_find	calld/calld.h	/^int   dev_find(Devices *, const Systems *);	\/* devfile.c *\/$/;"	p	signature:(Devices *, const Systems *)
+dev_find	calld/devfile.c	/^dev_find(Devices *devptr, const Systems *sysptr)$/;"	f	signature:(Devices *devptr, const Systems *sysptr)
+dev_next	calld/calld.h	/^int   dev_next(Devices *);$/;"	p	signature:(Devices *)
+dev_next	calld/devfile.c	/^dev_next(Devices *devptr)	\/* pointers in structure are filled in *\/$/;"	f	signature:(Devices *devptr)
+dev_rew	calld/calld.h	/^void  dev_rew(void);$/;"	p	signature:(void)
+dev_rew	calld/devfile.c	/^dev_rew(void)$/;"	f	signature:(void)
+devdir	termios/ttyname.c	/^struct devdir {$/;"	s	file:
+devdir::d_name	termios/ttyname.c	/^	char			*d_name;$/;"	m	struct:devdir	file:	access:public
+devdir::d_next	termios/ttyname.c	/^	struct devdir	*d_next;$/;"	m	struct:devdir	typeref:struct:devdir::devdir	file:	access:public
+devfile.c	calld/devfile.c	1;"	F
+devices	calld/calld.h	/^extern Devices	devices;	\/* filled in by dev_next() *\/$/;"	x
+devices	calld/main.c	/^Devices		devices;$/;"	v
+devline	calld/devfile.c	/^static char	devline[MAXLINE];$/;"	v	file:
+devlineno	calld/devfile.c	/^static int	devlineno;			\/* for error messages *\/$/;"	v	file:
+devrdev.c	file/devrdev.c	1;"	F
+devzero.c	advio/devzero.c	1;"	F
+dial_find	calld/calld.h	/^int   dial_find(Dialers *, const Devices *); \/* dialfile.c *\/$/;"	p	signature:(Dialers *, const Devices *)
+dial_find	calld/dialfile.c	/^dial_find(Dialers *dialptr, const Devices *devptr)$/;"	f	signature:(Dialers *dialptr, const Devices *devptr)
+dial_next	calld/calld.h	/^int   dial_next(Dialers *);$/;"	p	signature:(Dialers *)
+dial_next	calld/dialfile.c	/^dial_next(Dialers *dialptr)	\/* pointers in structure are filled in *\/$/;"	f	signature:(Dialers *dialptr)
+dial_rew	calld/calld.h	/^void  dial_rew(void);$/;"	p	signature:(void)
+dial_rew	calld/dialfile.c	/^dial_rew(void)$/;"	f	signature:(void)
+dialer	calld/calld.h	/^  char	*dialer;	\/* matched by dialer in Devices *\/$/;"	m	struct:__anon6	access:public
+dialer	calld/calld.h	/^  char	*dialer;	\/* name of dialer in Dialers *\/$/;"	m	struct:__anon5	access:public
+dialers	calld/calld.h	/^extern Dialers	dialers;	\/* filled in by dial_next() *\/$/;"	x
+dialers	calld/main.c	/^Dialers		dialers;$/;"	v
+dialfile.c	calld/dialfile.c	1;"	F
+dialline	calld/dialfile.c	/^static char	dialline[MAXLINE];$/;"	v	file:
+diallineno	calld/dialfile.c	/^static int	diallineno;			\/* for error messages *\/$/;"	v	file:
+do_cmd	proc/times1.c	/^do_cmd(char *cmd)		\/* execute and time the "cmd" *\/$/;"	f	file:	signature:(char *cmd)
+do_cmd	proc/times1.c	/^static void	do_cmd(char *);$/;"	p	file:	signature:(char *)
+do_driver	pty/driver.c	/^do_driver(char *driver)$/;"	f	signature:(char *driver)
+do_driver	pty/main.c	/^void		do_driver(char *);	\/* in the file driver.c *\/$/;"	p	file:	signature:(char *)
+do_line	environ/cmd1.c	/^do_line(char *ptr)		\/* process one line of input *\/$/;"	f	signature:(char *ptr)
+do_line	environ/cmd1.c	/^void	do_line(char *);$/;"	p	file:	signature:(char *)
+doatexit.c	environ/doatexit.c	1;"	F
+doescape	call/call.h	/^int		doescape(int);$/;"	p	signature:(int)
+doescape	call/escape.c	/^doescape(int remfd)$/;"	f	signature:(int remfd)
+doit	environ/getrlimit.c	/^#define	doit(/;"	d	file:
+dopath	file/ftw4.c	/^dopath(Myfunc* func)$/;"	f	file:	signature:(Myfunc* func)
+dopath	file/ftw4.c	/^static int		dopath(Myfunc *);$/;"	p	file:	signature:(Myfunc *)
+driver.c	pty/driver.c	1;"	F
+dst	call/call.h	/^extern char	*dst;		\/* for take and put commands *\/$/;"	x
+dst	call/main.c	/^char	*dst;$/;"	v
+echoall.c	proc/echoall.c	1;"	F
+echoarg.c	proc/echoarg.c	1;"	F
+enqueue_msg	threads/condvar.c	/^enqueue_msg(struct msg *mp)$/;"	f	signature:(struct msg *mp)
+env_alrm	signals/read2.c	/^static jmp_buf	env_alrm;$/;"	v	file:
+env_alrm	signals/sleep2.c	/^static jmp_buf	env_alrm;$/;"	v	file:
+env_init	proc/exec1.c	/^char	*env_init[] = { "USER=unknown", "PATH=\/tmp", NULL };$/;"	v
+env_mutex	threadctl/getenv2.c	/^pthread_mutex_t env_mutex;$/;"	v
+env_mutex	threadctl/getenv3.c	/^pthread_mutex_t env_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+envbuf	threadctl/getenv1.c	/^static char envbuf[ARG_MAX];$/;"	v	file:
+environ	threadctl/getenv1.c	/^extern char **environ;$/;"	x
+environ	threadctl/getenv2.c	/^extern char **environ;$/;"	x
+environ	threadctl/getenv3.c	/^extern char **environ;$/;"	x
+err_doit	lib/error.c	/^err_doit(int errnoflag, int error, const char *fmt, va_list ap)$/;"	f	file:	signature:(int errnoflag, int error, const char *fmt, va_list ap)
+err_doit	lib/error.c	/^static void	err_doit(int, int, const char *, va_list);$/;"	p	file:	signature:(int, int, const char *, va_list)
+err_dump	include/apue.h	/^void	err_dump(const char *, ...);		\/* {App misc_source} *\/$/;"	p	signature:(const char *, ...)
+err_dump	lib/apue.h	/^void	err_dump(const char *, ...);		\/* {App misc_source} *\/$/;"	p	signature:(const char *, ...)
+err_dump	lib/error.c	/^err_dump(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+err_exit	include/apue.h	/^void	err_exit(int, const char *, ...);$/;"	p	signature:(int, const char *, ...)
+err_exit	lib/apue.h	/^void	err_exit(int, const char *, ...);$/;"	p	signature:(int, const char *, ...)
+err_exit	lib/error.c	/^err_exit(int error, const char *fmt, ...)$/;"	f	signature:(int error, const char *fmt, ...)
+err_msg	include/apue.h	/^void	err_msg(const char *, ...);$/;"	p	signature:(const char *, ...)
+err_msg	lib/apue.h	/^void	err_msg(const char *, ...);$/;"	p	signature:(const char *, ...)
+err_msg	lib/error.c	/^err_msg(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+err_quit	include/apue.h	/^void	err_quit(const char *, ...);$/;"	p	signature:(const char *, ...)
+err_quit	lib/apue.h	/^void	err_quit(const char *, ...);$/;"	p	signature:(const char *, ...)
+err_quit	lib/error.c	/^err_quit(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+err_ret	include/apue.h	/^void	err_ret(const char *, ...);$/;"	p	signature:(const char *, ...)
+err_ret	lib/apue.h	/^void	err_ret(const char *, ...);$/;"	p	signature:(const char *, ...)
+err_ret	lib/error.c	/^err_ret(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+err_sys	include/apue.h	/^void	err_sys(const char *, ...);$/;"	p	signature:(const char *, ...)
+err_sys	lib/apue.h	/^void	err_sys(const char *, ...);$/;"	p	signature:(const char *, ...)
+err_sys	lib/error.c	/^err_sys(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+errmsg	calld/calld.h	/^extern char   errmsg[];	\/* error message string to return to client *\/$/;"	x
+errmsg	calld/main.c	/^char		errmsg[MAXLINE];$/;"	v
+errmsg	opend.fe/main.c	/^char	 errmsg[MAXLINE];$/;"	v
+errmsg	opend.fe/opend.h	/^extern char	 errmsg[];	\/* error message string to return to client *\/$/;"	x
+errmsg	opend/main.c	/^char	 errmsg[MAXLINE];$/;"	v
+errmsg	opend/opend.h	/^extern char	 errmsg[];	\/* error message string to return to client *\/$/;"	x
+error.c	lib/error.c	1;"	F
+errorlog.c	lib/errorlog.c	1;"	F
+escape.c	call/escape.c	1;"	F
+escapec	call/call.h	/^extern char	 escapec;	\/* tilde for local commands *\/$/;"	x
+escapec	call/main.c	/^char	 escapec = '~';$/;"	v
+exec1.c	proc/exec1.c	1;"	F
+exec2.c	proc/exec2.c	1;"	F
+exitstatus.c	threads/exitstatus.c	1;"	F
+exp_read	calld/expectstr.c	/^exp_read(int fd, char *buf)$/;"	f	signature:(int fd, char *buf)
+expalarm	calld/expectstr.c	/^static int		expalarm = EXPALRM;$/;"	v	file:
+expect_str	calld/calld.h	/^int   expect_str(int, char *);				\/* expectstr.c *\/$/;"	p	signature:(int, char *)
+expect_str	calld/expectstr.c	/^expect_str(int fd, char *ptr)$/;"	f	signature:(int fd, char *ptr)
+expectstr.c	calld/expectstr.c	1;"	F
+expsend	calld/calld.h	/^  char	*expsend;	\/* expect\/send chat *\/$/;"	m	struct:__anon6	access:public
+f1	environ/testjmp.c	/^f1(int i, int j, int k, int l)$/;"	f	file:	signature:(int i, int j, int k, int l)
+f1	environ/testjmp.c	/^static void	f1(int, int, int, int);$/;"	p	file:	signature:(int, int, int, int)
+f1	proc/vfork3.c	/^f1(void)$/;"	f	file:	signature:(void)
+f1	proc/vfork3.c	/^static void	f1(void), f2(void);$/;"	p	file:	signature:(void)
+f2	environ/testjmp.c	/^f2(void)$/;"	f	file:	signature:(void)
+f2	environ/testjmp.c	/^static void	f2(void);$/;"	p	file:	signature:(void)
+f2	proc/vfork3.c	/^f2(void)$/;"	f	file:	signature:(void)
+f2	proc/vfork3.c	/^static void	f1(void), f2(void);$/;"	p	file:	signature:(void)
+f_count	threads/mutex1.c	/^	int             f_count;$/;"	m	struct:foo	file:	access:public
+f_count	threads/mutex2.c	/^	int             f_count;$/;"	m	struct:foo	file:	access:public
+f_count	threads/mutex3.c	/^	int             f_count; \/* protected by hashlock *\/$/;"	m	struct:foo	file:	access:public
+f_id	threads/mutex2.c	/^	int             f_id;$/;"	m	struct:foo	file:	access:public
+f_id	threads/mutex3.c	/^	int             f_id;$/;"	m	struct:foo	file:	access:public
+f_lock	threads/mutex1.c	/^	pthread_mutex_t f_lock;$/;"	m	struct:foo	file:	access:public
+f_lock	threads/mutex2.c	/^	pthread_mutex_t f_lock;$/;"	m	struct:foo	file:	access:public
+f_lock	threads/mutex3.c	/^	pthread_mutex_t f_lock;$/;"	m	struct:foo	file:	access:public
+f_next	threads/mutex2.c	/^	struct foo     *f_next; \/* protected by hashlock *\/$/;"	m	struct:foo	typeref:struct:foo::foo	file:	access:public
+f_next	threads/mutex3.c	/^	struct foo     *f_next; \/* protected by hashlock *\/$/;"	m	struct:foo	typeref:struct:foo::foo	file:	access:public
+fd	calld/calld.h	/^  int	fd;			\/* fd, or -1 if available *\/$/;"	m	struct:__anon3	access:public
+fd	opend/opend.h	/^  int	fd;			\/* fd, or -1 if available *\/$/;"	m	struct:__anon8	access:public
+fgetsfputs.c	mycat/fgetsfputs.c	1;"	F
+fh	threads/mutex2.c	/^struct foo *fh[NHASH];$/;"	v	typeref:struct:foo
+fh	threads/mutex3.c	/^struct foo *fh[NHASH];$/;"	v	typeref:struct:foo
+fifo1.c	ipc/fifo1.c	1;"	F
+fileflags.c	file/fileflags.c	1;"	F
+filetype.c	file/filetype.c	1;"	F
+find_line	calld/lock.c	/^find_line(char *line)$/;"	f	file:	signature:(char *line)
+findsvc.c	sockets/findsvc.c	1;"	F
+flags	ipp/print.h	/^	long flags;					\/* see below *\/$/;"	m	struct:printreq	access:public
+foo	exercises/goodexit.c	/^struct foo {$/;"	s	file:
+foo	threads/badexit2.c	/^struct foo {$/;"	s	file:
+foo	threads/mutex1.c	/^struct foo {$/;"	s	file:
+foo	threads/mutex2.c	/^struct foo {$/;"	s	file:
+foo	threads/mutex3.c	/^struct foo {$/;"	s	file:
+foo::a	exercises/goodexit.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+foo::a	threads/badexit2.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+foo::b	exercises/goodexit.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+foo::b	threads/badexit2.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+foo::c	exercises/goodexit.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+foo::c	threads/badexit2.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+foo::d	exercises/goodexit.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+foo::d	threads/badexit2.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:	access:public
+foo::f_count	threads/mutex1.c	/^	int             f_count;$/;"	m	struct:foo	file:	access:public
+foo::f_count	threads/mutex2.c	/^	int             f_count;$/;"	m	struct:foo	file:	access:public
+foo::f_count	threads/mutex3.c	/^	int             f_count; \/* protected by hashlock *\/$/;"	m	struct:foo	file:	access:public
+foo::f_id	threads/mutex2.c	/^	int             f_id;$/;"	m	struct:foo	file:	access:public
+foo::f_id	threads/mutex3.c	/^	int             f_id;$/;"	m	struct:foo	file:	access:public
+foo::f_lock	threads/mutex1.c	/^	pthread_mutex_t f_lock;$/;"	m	struct:foo	file:	access:public
+foo::f_lock	threads/mutex2.c	/^	pthread_mutex_t f_lock;$/;"	m	struct:foo	file:	access:public
+foo::f_lock	threads/mutex3.c	/^	pthread_mutex_t f_lock;$/;"	m	struct:foo	file:	access:public
+foo::f_next	threads/mutex2.c	/^	struct foo     *f_next; \/* protected by hashlock *\/$/;"	m	struct:foo	typeref:struct:foo::foo	file:	access:public
+foo::f_next	threads/mutex3.c	/^	struct foo     *f_next; \/* protected by hashlock *\/$/;"	m	struct:foo	typeref:struct:foo::foo	file:	access:public
+foo_alloc	threads/mutex1.c	/^foo_alloc(void) \/* allocate the object *\/$/;"	f	signature:(void)
+foo_alloc	threads/mutex2.c	/^foo_alloc(void) \/* allocate the object *\/$/;"	f	signature:(void)
+foo_alloc	threads/mutex3.c	/^foo_alloc(void) \/* allocate the object *\/$/;"	f	signature:(void)
+foo_find	threads/mutex2.c	/^foo_find(int id) \/* find an existing object *\/$/;"	f	signature:(int id)
+foo_find	threads/mutex3.c	/^foo_find(int id) \/* find a existing object *\/$/;"	f	signature:(int id)
+foo_hold	threads/mutex1.c	/^foo_hold(struct foo *fp) \/* add a reference to the object *\/$/;"	f	signature:(struct foo *fp)
+foo_hold	threads/mutex2.c	/^foo_hold(struct foo *fp) \/* add a reference to the object *\/$/;"	f	signature:(struct foo *fp)
+foo_hold	threads/mutex3.c	/^foo_hold(struct foo *fp) \/* add a reference to the object *\/$/;"	f	signature:(struct foo *fp)
+foo_rele	threads/mutex1.c	/^foo_rele(struct foo *fp) \/* release a reference to the object *\/$/;"	f	signature:(struct foo *fp)
+foo_rele	threads/mutex2.c	/^foo_rele(struct foo *fp) \/* release a reference to the object *\/$/;"	f	signature:(struct foo *fp)
+foo_rele	threads/mutex3.c	/^foo_rele(struct foo *fp) \/* release a reference to the object *\/$/;"	f	signature:(struct foo *fp)
+fork1.c	proc/fork1.c	1;"	F
+fork2.c	proc/fork2.c	1;"	F
+foundone	calld/calld.h	/^  long	foundone;	\/* true if we find a matching sysfile entry *\/$/;"	m	struct:__anon3	access:public
+fpdev	calld/devfile.c	/^static FILE	*fpdev = NULL;$/;"	v	file:
+fpdial	calld/dialfile.c	/^static FILE	*fpdial = NULL;$/;"	v	file:
+fpsys	calld/sysfile.c	/^static FILE	*fpsys = NULL;$/;"	v	file:
+freebsd.mk	advio/freebsd.mk	1;"	F
+freebsd.mk	call/freebsd.mk	1;"	F
+freebsd.mk	calld/freebsd.mk	1;"	F
+freebsd.mk	daemons/freebsd.mk	1;"	F
+freebsd.mk	datafiles/freebsd.mk	1;"	F
+freebsd.mk	db/freebsd.mk	1;"	F
+freebsd.mk	environ/freebsd.mk	1;"	F
+freebsd.mk	exercises/freebsd.mk	1;"	F
+freebsd.mk	file/freebsd.mk	1;"	F
+freebsd.mk	ipc/freebsd.mk	1;"	F
+freebsd.mk	ipp/freebsd.mk	1;"	F
+freebsd.mk	lib/freebsd.mk	1;"	F
+freebsd.mk	lock/freebsd.mk	1;"	F
+freebsd.mk	mycat/freebsd.mk	1;"	F
+freebsd.mk	open.fe/freebsd.mk	1;"	F
+freebsd.mk	open/freebsd.mk	1;"	F
+freebsd.mk	opend.fe/freebsd.mk	1;"	F
+freebsd.mk	opend/freebsd.mk	1;"	F
+freebsd.mk	proc/freebsd.mk	1;"	F
+freebsd.mk	pty/freebsd.mk	1;"	F
+freebsd.mk	sess/freebsd.mk	1;"	F
+freebsd.mk	signals/freebsd.mk	1;"	F
+freebsd.mk	sockets/freebsd.mk	1;"	F
+freebsd.mk	std/freebsd.mk	1;"	F
+freebsd.mk	stdio/freebsd.mk	1;"	F
+freebsd.mk	streams/freebsd.mk	1;"	F
+freebsd.mk	termios/freebsd.mk	1;"	F
+freebsd.mk	threadctl/freebsd.mk	1;"	F
+freebsd.mk	threads/freebsd.mk	1;"	F
+ftw4.c	file/ftw4.c	1;"	F
+fullpath	file/ftw4.c	/^static char	*fullpath;		\/* contains full pathname for every file *\/$/;"	v	file:
+get_newjobno	ipp/printd.c	/^get_newjobno(void)$/;"	f	signature:(void)
+get_newjobno	ipp/printd.c	/^long		get_newjobno(void);$/;"	p	file:	signature:(void)
+get_printaddr	ipp/print.h	/^extern struct addrinfo *get_printaddr(void);$/;"	p	signature:(void)
+get_printaddr	ipp/util.c	/^get_printaddr(void)$/;"	f	signature:(void)
+get_printserver	ipp/print.h	/^extern char *get_printserver(void);$/;"	p	signature:(void)
+get_printserver	ipp/util.c	/^get_printserver(void)$/;"	f	signature:(void)
+get_token	environ/cmd1.c	/^get_token(void)$/;"	f	signature:(void)
+get_token	environ/cmd1.c	/^int		get_token(void);$/;"	p	file:	signature:(void)
+getaddrlist	ipp/print.h	/^extern int getaddrlist(const char *, const char *,$/;"	p	signature:(const char *, const char *, struct addrinfo **)
+getaddrlist	ipp/util.c	/^getaddrlist(const char *host, const char *service,$/;"	f	signature:(const char *host, const char *service, struct addrinfo **ailistpp)
+getcputc.c	mycat/getcputc.c	1;"	F
+getenv	threadctl/getenv1.c	/^getenv(const char *name)$/;"	f	signature:(const char *name)
+getenv	threadctl/getenv3.c	/^getenv(const char *name)$/;"	f	signature:(const char *name)
+getenv1.c	threadctl/getenv1.c	1;"	F
+getenv2.c	threadctl/getenv2.c	1;"	F
+getenv3.c	threadctl/getenv3.c	1;"	F
+getenv_r	threadctl/getenv2.c	/^getenv_r(const char *name, char *buf, int buflen)$/;"	f	signature:(const char *name, char *buf, int buflen)
+getlogin.c	exercises/getlogin.c	1;"	F
+getpass	termios/getpass.c	/^getpass(const char *prompt)$/;"	f	signature:(const char *prompt)
+getpass	termios/t_getpass.c	/^char	*getpass(const char *);$/;"	p	file:	signature:(const char *)
+getpass.c	termios/getpass.c	1;"	F
+getpw44bsd.c	exercises/getpw44bsd.c	1;"	F
+getpwnam	datafiles/getpwnam.c	/^getpwnam(const char *name)$/;"	f	signature:(const char *name)
+getpwnam.c	datafiles/getpwnam.c	1;"	F
+getpwsvr4.c	exercises/getpwsvr4.c	1;"	F
+getrlimit.c	environ/getrlimit.c	1;"	F
+glob	proc/fork1.c	/^int		glob = 6;		\/* external variable in initialized data *\/$/;"	v
+glob	proc/vfork1.c	/^int		glob = 6;		\/* external variable in initialized data *\/$/;"	v
+globval	environ/testjmp.c	/^static int		globval;$/;"	v	file:
+goodexit.c	exercises/goodexit.c	1;"	F
+grantpt	lib/bsd_ptyopen.c	/^grantpt(int fdm)$/;"	f	signature:(int fdm)
+grantpt	lib/linux_ptyopen.c	/^grantpt(int fdm)$/;"	f	signature:(int fdm)
+hashlock	threads/mutex2.c	/^pthread_mutex_t hashlock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+hashlock	threads/mutex3.c	/^pthread_mutex_t hashlock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+hashoff	db/db.c	/^  off_t  hashoff;  \/* offset in index file of hash table *\/$/;"	m	struct:__anon2	file:	access:public
+head	termios/ttyname.c	/^static struct devdir	*head;$/;"	v	typeref:struct:devdir	file:
+hello.c	file/hello.c	1;"	F
+hello1.c	environ/hello1.c	1;"	F
+hole.c	file/hole.c	1;"	F
+idxbuf	db/db.c	/^  char  *idxbuf; \/* malloc'ed buffer for index record *\/$/;"	m	struct:__anon2	file:	access:public
+idxfd	db/db.c	/^  int    idxfd;  \/* fd for index file *\/$/;"	m	struct:__anon2	file:	access:public
+idxlen	db/db.c	/^  size_t idxlen; \/* length of index record *\/$/;"	m	struct:__anon2	file:	access:public
+idxoff	db/db.c	/^  off_t  idxoff; \/* offset in index file of index record *\/$/;"	m	struct:__anon2	file:	access:public
+init.c	daemons/init.c	1;"	F
+init_done	threadctl/getenv2.c	/^static pthread_once_t init_done = PTHREAD_ONCE_INIT;$/;"	v	file:
+init_done	threadctl/getenv3.c	/^static pthread_once_t init_done = PTHREAD_ONCE_INIT;$/;"	v	file:
+init_printer	ipp/printd.c	/^init_printer(void)$/;"	f	signature:(void)
+init_printer	ipp/printd.c	/^void		init_printer(void);$/;"	p	file:	signature:(void)
+init_request	ipp/printd.c	/^init_request(void)$/;"	f	signature:(void)
+init_request	ipp/printd.c	/^void		init_request(void);$/;"	p	file:	signature:(void)
+initserver	ipp/print.h	/^extern int initserver(int, struct sockaddr *, socklen_t, int);$/;"	p	signature:(int, struct sockaddr *, socklen_t, int)
+initserver	sockets/initsrv1.c	/^initserver(int type, const struct sockaddr *addr, socklen_t alen,$/;"	f	signature:(int type, const struct sockaddr *addr, socklen_t alen, int qlen)
+initserver	sockets/initsrv2.c	/^initserver(int type, const struct sockaddr *addr, socklen_t alen,$/;"	f	signature:(int type, const struct sockaddr *addr, socklen_t alen, int qlen)
+initserver	sockets/ruptimed-dg.c	/^extern int initserver(int, struct sockaddr *, socklen_t, int);$/;"	p	file:	signature:(int, struct sockaddr *, socklen_t, int)
+initserver	sockets/ruptimed-fd.c	/^extern int initserver(int, struct sockaddr *, socklen_t, int);$/;"	p	file:	signature:(int, struct sockaddr *, socklen_t, int)
+initserver	sockets/ruptimed.c	/^extern int initserver(int, struct sockaddr *, socklen_t, int);$/;"	p	file:	signature:(int, struct sockaddr *, socklen_t, int)
+initsrv1.c	sockets/initsrv1.c	1;"	F
+initsrv2.c	sockets/initsrv2.c	1;"	F
+ipp.h	ipp/ipp.h	1;"	F
+ipp_hdr	ipp/ipp.h	/^struct ipp_hdr {$/;"	s
+ipp_hdr::__anon1::op	ipp/ipp.h	/^		int16_t op;	\/* operation ID *\/$/;"	m	union:ipp_hdr::__anon1	access:public
+ipp_hdr::__anon1::st	ipp/ipp.h	/^		int16_t st;	\/* status *\/$/;"	m	union:ipp_hdr::__anon1	access:public
+ipp_hdr::attr_group	ipp/ipp.h	/^	char    attr_group[1];	\/* start of optional attributes group *\/$/;"	m	struct:ipp_hdr	access:public
+ipp_hdr::major_version	ipp/ipp.h	/^	int8_t  major_version;	\/* always 1 *\/$/;"	m	struct:ipp_hdr	access:public
+ipp_hdr::minor_version	ipp/ipp.h	/^	int8_t  minor_version;	\/* always 1 *\/$/;"	m	struct:ipp_hdr	access:public
+ipp_hdr::request_id	ipp/ipp.h	/^	int32_t request_id;		\/* request ID *\/$/;"	m	struct:ipp_hdr	access:public
+ipp_hdr::u	ipp/ipp.h	/^	} u;$/;"	m	struct:ipp_hdr	typeref:union:ipp_hdr::__anon1	access:public
+is_locked	calld/calld.h	/^pid_t is_locked(char *);					\/* lock.c *\/$/;"	p	signature:(char *)
+is_locked	calld/lock.c	/^is_locked(char *line)$/;"	f	signature:(char *line)
+is_read_lockable	include/apue.h	/^#define	is_read_lockable(/;"	d
+is_read_lockable	lib/apue.h	/^#define	is_read_lockable(/;"	d
+is_write_lockable	include/apue.h	/^#define	is_write_lockable(/;"	d
+is_write_lockable	lib/apue.h	/^#define	is_write_lockable(/;"	d
+isastream	streams/isastream.c	/^isastream(int fd)$/;"	f	signature:(int fd)
+isastream.c	streams/isastream.c	1;"	F
+isatty	termios/isatty.c	/^isatty(int fd)$/;"	f	signature:(int fd)
+isatty.c	termios/isatty.c	1;"	F
+j_id	threads/rwlock.c	/^	pthread_t   j_id;   \/* tells which thread handles this job *\/$/;"	m	struct:job	file:	access:public
+j_next	threads/rwlock.c	/^	struct job *j_next;$/;"	m	struct:job	typeref:struct:job::job	file:	access:public
+j_prev	threads/rwlock.c	/^	struct job *j_prev;$/;"	m	struct:job	typeref:struct:job::job	file:	access:public
+jmpbuf	signals/mask.c	/^static sigjmp_buf				jmpbuf;$/;"	v	file:
+jmpbuffer	environ/cmd2.c	/^jmp_buf	jmpbuffer;$/;"	v
+jmpbuffer	environ/testjmp.c	/^static jmp_buf	jmpbuffer;$/;"	v	file:
+job	ipp/printd.c	/^struct job {$/;"	s	file:
+job	threads/rwlock.c	/^struct job {$/;"	s	file:
+job::j_id	threads/rwlock.c	/^	pthread_t   j_id;   \/* tells which thread handles this job *\/$/;"	m	struct:job	file:	access:public
+job::j_next	threads/rwlock.c	/^	struct job *j_next;$/;"	m	struct:job	typeref:struct:job::job	file:	access:public
+job::j_prev	threads/rwlock.c	/^	struct job *j_prev;$/;"	m	struct:job	typeref:struct:job::job	file:	access:public
+job::jobid	ipp/printd.c	/^	long             jobid;		\/* job ID *\/$/;"	m	struct:job	file:	access:public
+job::next	ipp/printd.c	/^	struct job      *next;		\/* next in list *\/$/;"	m	struct:job	typeref:struct:job::job	file:	access:public
+job::prev	ipp/printd.c	/^	struct job      *prev;		\/* previous in list *\/$/;"	m	struct:job	typeref:struct:job::job	file:	access:public
+job::req	ipp/printd.c	/^	struct printreq  req;		\/* copy of print request *\/$/;"	m	struct:job	typeref:struct:job::printreq	file:	access:public
+job_append	threads/rwlock.c	/^job_append(struct queue *qp, struct job *jp)$/;"	f	signature:(struct queue *qp, struct job *jp)
+job_find	threads/rwlock.c	/^job_find(struct queue *qp, pthread_t id)$/;"	f	signature:(struct queue *qp, pthread_t id)
+job_insert	threads/rwlock.c	/^job_insert(struct queue *qp, struct job *jp)$/;"	f	signature:(struct queue *qp, struct job *jp)
+job_remove	threads/rwlock.c	/^job_remove(struct queue *qp, struct job *jp)$/;"	f	signature:(struct queue *qp, struct job *jp)
+jobfd	ipp/printd.c	/^int					jobfd;$/;"	v
+jobhead	ipp/printd.c	/^struct job				*jobhead, *jobtail;$/;"	v	typeref:struct:job
+jobid	ipp/print.h	/^	long jobid;					\/* job ID *\/$/;"	m	struct:printresp	access:public
+jobid	ipp/printd.c	/^	long             jobid;		\/* job ID *\/$/;"	m	struct:job	file:	access:public
+joblock	ipp/printd.c	/^pthread_mutex_t		joblock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+jobnm	ipp/print.h	/^	char jobnm[JOBNM_MAX];		\/* job's name *\/$/;"	m	struct:printreq	access:public
+jobtail	ipp/printd.c	/^struct job				*jobhead, *jobtail;$/;"	v	typeref:struct:
+jobwait	ipp/printd.c	/^pthread_cond_t			jobwait = PTHREAD_COND_INITIALIZER;$/;"	v
+key	threadctl/getenv3.c	/^static pthread_key_t key;$/;"	v	file:
+kill_workers	ipp/printd.c	/^kill_workers(void)$/;"	f	signature:(void)
+kill_workers	ipp/printd.c	/^void		kill_workers(void);$/;"	p	file:	signature:(void)
+line	calld/calld.h	/^  char	*line;		\/* (e.g., "cua0") without preceding "\/dev\/" *\/$/;"	m	struct:__anon5	access:public
+line	calld/lock.c	/^  char	*line;	\/* points to malloc()ed area *\/$/;"	m	struct:__anon7	file:	access:public
+line2	calld/calld.h	/^  char	*line2;		\/* (ignored) *\/$/;"	m	struct:__anon5	access:public
+linux.mk	advio/linux.mk	1;"	F
+linux.mk	call/linux.mk	1;"	F
+linux.mk	calld/linux.mk	1;"	F
+linux.mk	daemons/linux.mk	1;"	F
+linux.mk	datafiles/linux.mk	1;"	F
+linux.mk	db/linux.mk	1;"	F
+linux.mk	environ/linux.mk	1;"	F
+linux.mk	exercises/linux.mk	1;"	F
+linux.mk	file/linux.mk	1;"	F
+linux.mk	ipc/linux.mk	1;"	F
+linux.mk	ipp/linux.mk	1;"	F
+linux.mk	lib/linux.mk	1;"	F
+linux.mk	lock/linux.mk	1;"	F
+linux.mk	mycat/linux.mk	1;"	F
+linux.mk	open.fe/linux.mk	1;"	F
+linux.mk	open/linux.mk	1;"	F
+linux.mk	opend.fe/linux.mk	1;"	F
+linux.mk	opend/linux.mk	1;"	F
+linux.mk	proc/linux.mk	1;"	F
+linux.mk	pty/linux.mk	1;"	F
+linux.mk	sess/linux.mk	1;"	F
+linux.mk	signals/linux.mk	1;"	F
+linux.mk	sockets/linux.mk	1;"	F
+linux.mk	std/linux.mk	1;"	F
+linux.mk	stdio/linux.mk	1;"	F
+linux.mk	streams/linux.mk	1;"	F
+linux.mk	termios/linux.mk	1;"	F
+linux.mk	threadctl/linux.mk	1;"	F
+linux.mk	threads/linux.mk	1;"	F
+linux_ptyopen.c	lib/linux_ptyopen.c	1;"	F
+lock	calld/lock.c	/^static Lock	*lock = NULL;	\/* the malloc'ed\/realloc'ed array *\/$/;"	v	file:
+lock	threadctl/suspend.c	/^pthread_mutex_t lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+lock.c	calld/lock.c	1;"	F
+lock1	threadctl/atfork.c	/^pthread_mutex_t lock1 = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+lock2	threadctl/atfork.c	/^pthread_mutex_t lock2 = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+lock_reg	include/apue.h	/^int		lock_reg(int, int, int, off_t, int, off_t); \/* {Prog lockreg} *\/$/;"	p	signature:(int, int, int, off_t, int, off_t)
+lock_reg	lib/apue.h	/^int		lock_reg(int, int, int, off_t, int, off_t); \/* {Prog lockreg} *\/$/;"	p	signature:(int, int, int, off_t, int, off_t)
+lock_reg	lib/lockreg.c	/^lock_reg(int fd, int cmd, int type, off_t offset, int whence, off_t len)$/;"	f	signature:(int fd, int cmd, int type, off_t offset, int whence, off_t len)
+lock_rel	calld/calld.h	/^void  lock_rel(pid_t);$/;"	p	signature:(pid_t)
+lock_rel	calld/lock.c	/^lock_rel(pid_t pid)$/;"	f	signature:(pid_t pid)
+lock_set	calld/calld.h	/^void  lock_set(char *, pid_t);$/;"	p	signature:(char *, pid_t)
+lock_set	calld/lock.c	/^lock_set(char *line, pid_t pid)$/;"	f	signature:(char *line, pid_t pid)
+lock_size	calld/lock.c	/^static int	 lock_size;		\/* #entries in lock[] *\/$/;"	v	file:
+lock_test	include/apue.h	/^pid_t	lock_test(int, int, off_t, int, off_t);		\/* {Prog locktest} *\/$/;"	p	signature:(int, int, off_t, int, off_t)
+lock_test	lib/apue.h	/^pid_t	lock_test(int, int, off_t, int, off_t);		\/* {Prog locktest} *\/$/;"	p	signature:(int, int, off_t, int, off_t)
+lock_test	lib/locktest.c	/^lock_test(int fd, int type, off_t offset, int whence, off_t len)$/;"	f	signature:(int fd, int type, off_t offset, int whence, off_t len)
+lockabyte	lock/deadlock.c	/^lockabyte(const char *name, int fd, off_t offset)$/;"	f	file:	signature:(const char *name, int fd, off_t offset)
+lockfile	daemons/lockfile.c	/^lockfile(int fd)$/;"	f	signature:(int fd)
+lockfile	daemons/reread2.c	/^extern int lockfile(int);$/;"	p	file:	signature:(int)
+lockfile	daemons/single.c	/^extern int lockfile(int);$/;"	p	file:	signature:(int)
+lockfile.c	daemons/lockfile.c	1;"	F
+lockreg.c	lib/lockreg.c	1;"	F
+locktest.c	lib/locktest.c	1;"	F
+log_doit	lib/errorlog.c	/^log_doit(int errnoflag, int priority, const char *fmt, va_list ap)$/;"	f	file:	signature:(int errnoflag, int priority, const char *fmt, va_list ap)
+log_doit	lib/errorlog.c	/^static void	log_doit(int, int, const char *, va_list ap);$/;"	p	file:	signature:(int, int, const char *, va_list ap)
+log_msg	include/apue.h	/^void	log_msg(const char *, ...);			\/* {App misc_source} *\/$/;"	p	signature:(const char *, ...)
+log_msg	lib/apue.h	/^void	log_msg(const char *, ...);			\/* {App misc_source} *\/$/;"	p	signature:(const char *, ...)
+log_msg	lib/errorlog.c	/^log_msg(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+log_open	include/apue.h	/^void	log_open(const char *, int, int);$/;"	p	signature:(const char *, int, int)
+log_open	lib/apue.h	/^void	log_open(const char *, int, int);$/;"	p	signature:(const char *, int, int)
+log_open	lib/errorlog.c	/^log_open(const char *ident, int option, int facility)$/;"	f	signature:(const char *ident, int option, int facility)
+log_quit	include/apue.h	/^void	log_quit(const char *, ...);$/;"	p	signature:(const char *, ...)
+log_quit	lib/apue.h	/^void	log_quit(const char *, ...);$/;"	p	signature:(const char *, ...)
+log_quit	lib/errorlog.c	/^log_quit(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+log_ret	include/apue.h	/^void	log_ret(const char *, ...);$/;"	p	signature:(const char *, ...)
+log_ret	lib/apue.h	/^void	log_ret(const char *, ...);$/;"	p	signature:(const char *, ...)
+log_ret	lib/errorlog.c	/^log_ret(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+log_sys	include/apue.h	/^void	log_sys(const char *, ...);$/;"	p	signature:(const char *, ...)
+log_sys	lib/apue.h	/^void	log_sys(const char *, ...);$/;"	p	signature:(const char *, ...)
+log_sys	lib/errorlog.c	/^log_sys(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+log_to_stderr	calld/main.c	/^int			clifd, log_to_stderr, client_size;$/;"	v
+log_to_stderr	ipp/print.c	/^int log_to_stderr = 1;$/;"	v
+log_to_stderr	ipp/printd.c	/^int					log_to_stderr = 0;$/;"	v
+log_to_stderr	lib/errorlog.c	/^extern int	log_to_stderr;$/;"	x
+log_to_stderr	opend/main.c	/^int		 debug, oflag, client_size, log_to_stderr;$/;"	v
+login	calld/calld.h	/^  char	*login;		\/* uucp login chat (ignored) *\/$/;"	m	struct:__anon4	access:public
+longpath.c	file/longpath.c	1;"	F
+loop	call/call.h	/^void	loop(int);$/;"	p	signature:(int)
+loop	call/loop.poll.c	/^loop(int remfd)$/;"	f	signature:(int remfd)
+loop	calld/calld.h	/^void  loop(void);							\/* loop.c *\/$/;"	p	signature:(void)
+loop	calld/loop.c	/^loop(void)$/;"	f	signature:(void)
+loop	opend/loop.poll.c	/^loop(void)$/;"	f	signature:(void)
+loop	opend/loop.select.c	/^loop(void)$/;"	f	signature:(void)
+loop	opend/opend.h	/^void	 loop(void);$/;"	p	signature:(void)
+loop	pty/loop.c	/^loop(int ptym, int ignoreeof)$/;"	f	signature:(int ptym, int ignoreeof)
+loop	pty/main.c	/^void		loop(int, int);		\/* in the file loop.c *\/$/;"	p	file:	signature:(int, int)
+loop.c	calld/loop.c	1;"	F
+loop.c	pty/loop.c	1;"	F
+loop.poll.c	call/loop.poll.c	1;"	F
+loop.poll.c	opend/loop.poll.c	1;"	F
+loop.select.c	opend/loop.select.c	1;"	F
+ls1.c	file/ls1.c	1;"	F
+m_next	threads/condvar.c	/^	struct msg *m_next;$/;"	m	struct:msg	typeref:struct:msg::msg	file:	access:public
+macos.mk	advio/macos.mk	1;"	F
+macos.mk	call/macos.mk	1;"	F
+macos.mk	calld/macos.mk	1;"	F
+macos.mk	daemons/macos.mk	1;"	F
+macos.mk	datafiles/macos.mk	1;"	F
+macos.mk	db/macos.mk	1;"	F
+macos.mk	environ/macos.mk	1;"	F
+macos.mk	exercises/macos.mk	1;"	F
+macos.mk	file/macos.mk	1;"	F
+macos.mk	ipc/macos.mk	1;"	F
+macos.mk	ipp/macos.mk	1;"	F
+macos.mk	lib/macos.mk	1;"	F
+macos.mk	lock/macos.mk	1;"	F
+macos.mk	mycat/macos.mk	1;"	F
+macos.mk	open.fe/macos.mk	1;"	F
+macos.mk	open/macos.mk	1;"	F
+macos.mk	opend.fe/macos.mk	1;"	F
+macos.mk	opend/macos.mk	1;"	F
+macos.mk	proc/macos.mk	1;"	F
+macos.mk	pty/macos.mk	1;"	F
+macos.mk	sess/macos.mk	1;"	F
+macos.mk	signals/macos.mk	1;"	F
+macos.mk	sockets/macos.mk	1;"	F
+macos.mk	std/macos.mk	1;"	F
+macos.mk	stdio/macos.mk	1;"	F
+macos.mk	streams/macos.mk	1;"	F
+macos.mk	termios/macos.mk	1;"	F
+macos.mk	threadctl/macos.mk	1;"	F
+macos.mk	threads/macos.mk	1;"	F
+main	advio/catgetmsg.c	/^main(void)$/;"	f	signature:(void)
+main	advio/devzero.c	/^main(void)$/;"	f	signature:(void)
+main	advio/mcopy.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	advio/nonblockw.c	/^main(void)$/;"	f	signature:(void)
+main	advio/pendlock.c	/^main(void)$/;"	f	signature:(void)
+main	call/main.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	calld/main.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	daemons/reread.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	daemons/reread2.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	db/t4.c	/^main(void)$/;"	f	signature:(void)
+main	environ/cmd1.c	/^main(void)$/;"	f	signature:(void)
+main	environ/cmd2.c	/^main(void)$/;"	f	signature:(void)
+main	environ/doatexit.c	/^main(void)$/;"	f	signature:(void)
+main	environ/getrlimit.c	/^main(void)$/;"	f	signature:(void)
+main	environ/hello1.c	/^main()$/;"	f
+main	environ/testjmp.c	/^main(void)$/;"	f	signature:(void)
+main	exercises/getlogin.c	/^main(void)$/;"	f	signature:(void)
+main	exercises/getpw44bsd.c	/^main(void)		\/* FreeBSD\/Mac OS X version *\/$/;"	f	signature:(void)
+main	exercises/getpwsvr4.c	/^main(void)		\/* Linux\/Solaris version *\/$/;"	f	signature:(void)
+main	exercises/goodexit.c	/^main(void)$/;"	f	signature:(void)
+main	exercises/prtime.c	/^main(void)$/;"	f	signature:(void)
+main	exercises/sizepipe.c	/^main(void)$/;"	f	signature:(void)
+main	file/access.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	file/cdpwd.c	/^main(void)$/;"	f	signature:(void)
+main	file/changemod.c	/^main(void)$/;"	f	signature:(void)
+main	file/devrdev.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	file/fileflags.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	file/filetype.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	file/ftw4.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	file/hello.c	/^main(void)$/;"	f	signature:(void)
+main	file/hole.c	/^main(void)$/;"	f	signature:(void)
+main	file/longpath.c	/^main(void)$/;"	f	signature:(void)
+main	file/ls1.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	file/mycd.c	/^main(void)$/;"	f	signature:(void)
+main	file/seek.c	/^main(void)$/;"	f	signature:(void)
+main	file/testerror.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	file/uidgid.c	/^main(void)$/;"	f	signature:(void)
+main	file/umask.c	/^main(void)$/;"	f	signature:(void)
+main	file/unlink.c	/^main(void)$/;"	f	signature:(void)
+main	file/zap.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	ipc/add2.c	/^main(void)$/;"	f	signature:(void)
+main	ipc/add2stdio.c	/^main(void)$/;"	f	signature:(void)
+main	ipc/fifo1.c	/^main(void)$/;"	f	signature:(void)
+main	ipc/myuclc.c	/^main(void)$/;"	f	signature:(void)
+main	ipc/pipe1.c	/^main(void)$/;"	f	signature:(void)
+main	ipc/pipe2.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	ipc/pipe4.c	/^main(void)$/;"	f	signature:(void)
+main	ipc/popen1.c	/^main(void)$/;"	f	signature:(void)
+main	ipc/popen2.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	ipc/spipe4.c	/^main(void)$/;"	f	signature:(void)
+main	ipc/tshm.c	/^main(void)$/;"	f	signature:(void)
+main	ipp/print.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	ipp/printd.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	lock/deadlock.c	/^main(void)$/;"	f	signature:(void)
+main	lock/mandatory.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	mycat/fgetsfputs.c	/^main(void)$/;"	f	signature:(void)
+main	mycat/getcputc.c	/^main(void)$/;"	f	signature:(void)
+main	mycat/mycat.c	/^main(void)$/;"	f	signature:(void)
+main	open.fe/main.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	opend.fe/main.c	/^main(void)$/;"	f	signature:(void)
+main	opend/main.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	proc/echoall.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	proc/echoarg.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	proc/exec1.c	/^main(void)$/;"	f	signature:(void)
+main	proc/exec2.c	/^main(void)$/;"	f	signature:(void)
+main	proc/fork1.c	/^main(void)$/;"	f	signature:(void)
+main	proc/fork2.c	/^main(void)$/;"	f	signature:(void)
+main	proc/pracct.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	proc/pruids.c	/^main(void)$/;"	f	signature:(void)
+main	proc/shell1.c	/^main(void)$/;"	f	signature:(void)
+main	proc/shell2.c	/^main(void)$/;"	f	signature:(void)
+main	proc/systest1.c	/^main(void)$/;"	f	signature:(void)
+main	proc/systest2.c	/^main(void)$/;"	f	signature:(void)
+main	proc/systest3.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	proc/tellwait1.c	/^main(void)$/;"	f	signature:(void)
+main	proc/tellwait2.c	/^main(void)$/;"	f	signature:(void)
+main	proc/test1.c	/^main(void)$/;"	f	signature:(void)
+main	proc/times1.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	proc/vfork1.c	/^main(void)$/;"	f	signature:(void)
+main	proc/vfork3.c	/^main(void)$/;"	f	signature:(void)
+main	proc/wait1.c	/^main(void)$/;"	f	signature:(void)
+main	proc/zombie.c	/^main(void)$/;"	f	signature:(void)
+main	pty/main.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	sess/orphan3.c	/^main(void)$/;"	f	signature:(void)
+main	signals/child.c	/^main()$/;"	f
+main	signals/critical.c	/^main(void)$/;"	f	signature:(void)
+main	signals/mask.c	/^main(void)$/;"	f	signature:(void)
+main	signals/read1.c	/^main(void)$/;"	f	signature:(void)
+main	signals/read2.c	/^main(void)$/;"	f	signature:(void)
+main	signals/reenter.c	/^main(void)$/;"	f	signature:(void)
+main	signals/sigtstp.c	/^main(void)$/;"	f	signature:(void)
+main	signals/sigusr.c	/^main(void)$/;"	f	signature:(void)
+main	signals/suspend1.c	/^main(void)$/;"	f	signature:(void)
+main	signals/suspend2.c	/^main(void)$/;"	f	signature:(void)
+main	signals/tsleep2.c	/^main(void)$/;"	f	signature:(void)
+main	sockets/bindunix.c	/^main(void)$/;"	f	signature:(void)
+main	sockets/bo.c	/^main(void)$/;"	f	signature:(void)
+main	sockets/findsvc.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	sockets/ruptime-dg.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	sockets/ruptime.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	sockets/ruptimed-dg.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	sockets/ruptimed-fd.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	sockets/ruptimed.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	stdio/buf.c	/^main(void)$/;"	f	signature:(void)
+main	stdio/tempfiles.c	/^main(void)$/;"	f	signature:(void)
+main	stdio/tempnam.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	streams/strlist.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	streams/t_isastream.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	termios/csize.c	/^main(void)$/;"	f	signature:(void)
+main	termios/settty.c	/^main(void)$/;"	f	signature:(void)
+main	termios/t_getpass.c	/^main(void)$/;"	f	signature:(void)
+main	termios/t_isatty.c	/^main(void)$/;"	f	signature:(void)
+main	termios/t_raw.c	/^main(void)$/;"	f	signature:(void)
+main	termios/t_ttyname.c	/^main(void)$/;"	f	signature:(void)
+main	termios/winch.c	/^main(void)$/;"	f	signature:(void)
+main	threadctl/atfork.c	/^main(void)$/;"	f	signature:(void)
+main	threadctl/suspend.c	/^main(void)$/;"	f	signature:(void)
+main	threadctl/timeout.c	/^main(void)$/;"	f	signature:(void)
+main	threads/badexit2.c	/^main(void)$/;"	f	signature:(void)
+main	threads/cleanup.c	/^main(void)$/;"	f	signature:(void)
+main	threads/exitstatus.c	/^main(void)$/;"	f	signature:(void)
+main	threads/threadid.c	/^main(void)$/;"	f	signature:(void)
+main.c	call/main.c	1;"	F
+main.c	calld/main.c	1;"	F
+main.c	open.fe/main.c	1;"	F
+main.c	opend.fe/main.c	1;"	F
+main.c	opend/main.c	1;"	F
+main.c	pty/main.c	1;"	F
+major_version	ipp/ipp.h	/^	int8_t  major_version;	\/* always 1 *\/$/;"	m	struct:ipp_hdr	access:public
+makeconf.awk	std/makeconf.awk	1;"	F
+makeopt.awk	std/makeopt.awk	1;"	F
+makethread	threadctl/detach.c	/^makethread(void *(*fn)(void *), void *arg)$/;"	f	signature:(void *(*fn)(void *), void *arg)
+makethread	threadctl/timeout.c	/^extern int makethread(void *(*)(void *), void *);$/;"	p	file:	signature:(void *(*)(void *), void *)
+mandatory.c	lock/mandatory.c	1;"	F
+mask	daemons/reread.c	/^sigset_t	mask;$/;"	v
+mask	ipp/printd.c	/^sigset_t				mask;$/;"	v
+mask	threadctl/suspend.c	/^sigset_t	mask;$/;"	v
+mask.c	signals/mask.c	1;"	F
+max	include/apue.h	/^#define	max(/;"	d
+max	lib/apue.h	/^#define	max(/;"	d
+maxfd	lib/popen.c	/^static int		maxfd;$/;"	v	file:
+mcopy.c	advio/mcopy.c	1;"	F
+min	include/apue.h	/^#define	min(/;"	d
+min	lib/apue.h	/^#define	min(/;"	d
+minor_version	ipp/ipp.h	/^	int8_t  minor_version;	\/* always 1 *\/$/;"	m	struct:ipp_hdr	access:public
+msg	ipp/print.h	/^	char msg[MSGLEN_MAX];		\/* error message *\/$/;"	m	struct:printresp	access:public
+msg	threads/condvar.c	/^struct msg {$/;"	s	file:
+msg::m_next	threads/condvar.c	/^	struct msg *m_next;$/;"	m	struct:msg	typeref:struct:msg::msg	file:	access:public
+mutex	threadctl/timeout.c	/^pthread_mutex_t mutex;$/;"	v
+mutex1.c	threads/mutex1.c	1;"	F
+mutex2.c	threads/mutex2.c	1;"	F
+mutex3.c	threads/mutex3.c	1;"	F
+my_alarm	signals/reenter.c	/^my_alarm(int signo)$/;"	f	file:	signature:(int signo)
+my_exit1	environ/doatexit.c	/^my_exit1(void)$/;"	f	file:	signature:(void)
+my_exit1	environ/doatexit.c	/^static void	my_exit1(void);$/;"	p	file:	signature:(void)
+my_exit2	environ/doatexit.c	/^my_exit2(void)$/;"	f	file:	signature:(void)
+my_exit2	environ/doatexit.c	/^static void	my_exit2(void);$/;"	p	file:	signature:(void)
+mycat.c	mycat/mycat.c	1;"	F
+mycd.c	file/mycd.c	1;"	F
+myftw	file/ftw4.c	/^myftw(char *pathname, Myfunc *func)$/;"	f	file:	signature:(char *pathname, Myfunc *func)
+myftw	file/ftw4.c	/^static int		myftw(char *, Myfunc *);$/;"	p	file:	signature:(char *, Myfunc *)
+myfunc	file/ftw4.c	/^myfunc(const char *pathname, const struct stat *statptr, int type)$/;"	f	file:	signature:(const char *pathname, const struct stat *statptr, int type)
+myfunc	file/ftw4.c	/^static Myfunc	myfunc;$/;"	v	file:
+myuclc.c	ipc/myuclc.c	1;"	F
+name	calld/calld.h	/^  char	*name;		\/* system name *\/$/;"	m	struct:__anon4	access:public
+name	db/db.c	/^  char  *name;   \/* name db was opened under *\/$/;"	m	struct:__anon2	file:	access:public
+nblk	file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+nchr	file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+ndir	file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+newmask	lib/tellwait.c	/^static sigset_t newmask, oldmask, zeromask;$/;"	v	file:
+next	ipp/printd.c	/^	struct job      *next;		\/* next in list *\/$/;"	m	struct:job	typeref:struct:job::job	file:	access:public
+next	ipp/printd.c	/^	struct worker_thread  *next;	\/* next in list *\/$/;"	m	struct:worker_thread	typeref:struct:worker_thread::worker_thread	file:	access:public
+nextjob	ipp/printd.c	/^long					nextjob;$/;"	v
+nfifo	file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+nhash	db/db.c	/^  DBHASH nhash;    \/* current hash table size *\/$/;"	m	struct:__anon2	file:	access:public
+nlocks	calld/lock.c	/^static int	 nlocks;		\/* #entries currently used in lock[] *\/$/;"	v	file:
+nonblockw.c	advio/nonblockw.c	1;"	F
+nreg	file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+ns_pipe	lib/nspipe.c	/^ns_pipe(const char *name, int fd[2])$/;"	f	signature:(const char *name, int fd[2])
+nslink	file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+nsock	file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+nspipe.c	lib/nspipe.c	1;"	F
+ntid	threads/threadid.c	/^pthread_t ntid;$/;"	v
+ntot	file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+oflag	opend.fe/main.c	/^int		 oflag;$/;"	v
+oflag	opend.fe/opend.h	/^extern int	 oflag;		\/* open() flag: O_xxx ... *\/$/;"	x
+oflag	opend/main.c	/^int		 debug, oflag, client_size, log_to_stderr;$/;"	v
+oflag	opend/opend.h	/^extern int	 oflag;		\/* open flag: O_xxx ... *\/$/;"	x
+oldmask	lib/tellwait.c	/^static sigset_t newmask, oldmask, zeromask;$/;"	v	file:
+op	ipp/ipp.h	/^		int16_t op;	\/* operation ID *\/$/;"	m	union:ipp_hdr::__anon1	access:public
+op_close	lib/semaph.c	/^static struct sembuf	op_close[3] = {$/;"	v	typeref:struct:sembuf	file:
+op_endcreate	lib/semaph.c	/^static struct sembuf	op_endcreate[2] = {$/;"	v	typeref:struct:sembuf	file:
+op_lock	lib/semaph.c	/^static struct sembuf	op_lock[2] = {$/;"	v	typeref:struct:sembuf	file:
+op_op	lib/semaph.c	/^static struct sembuf	op_op[1] = {$/;"	v	typeref:struct:sembuf	file:
+op_open	lib/semaph.c	/^static struct sembuf	op_open[1] = {$/;"	v	typeref:struct:sembuf	file:
+op_unlock	lib/semaph.c	/^static struct sembuf	op_unlock[1] = {$/;"	v	typeref:struct:sembuf	file:
+open.c	open.fe/open.c	1;"	F
+open.c	open/open.c	1;"	F
+open.h	open.fe/open.h	1;"	F
+open.h	open/open.h	1;"	F
+open_data	environ/opendata.c	/^open_data(void)$/;"	f	signature:(void)
+open_max	exercises/openmax.c	/^open_max(void)$/;"	f	signature:(void)
+open_max	include/apue.h	/^long	 open_max(void);				\/* {Prog openmax} *\/$/;"	p	signature:(void)
+open_max	lib/apue.h	/^long	 open_max(void);				\/* {Prog openmax} *\/$/;"	p	signature:(void)
+open_max	lib/openmax.c	/^open_max(void)$/;"	f	signature:(void)
+opend.h	opend.fe/opend.h	1;"	F
+opend.h	opend/opend.h	1;"	F
+opendata.c	environ/opendata.c	1;"	F
+openmax	lib/openmax.c	/^static long	openmax = 0;$/;"	v	file:
+openmax	lib/openmax.c	/^static long	openmax = OPEN_MAX;$/;"	v	file:
+openmax.c	exercises/openmax.c	1;"	F
+openmax.c	lib/openmax.c	1;"	F
+operation	ipp/ipp.h	/^#define operation /;"	d
+orphan3.c	sess/orphan3.c	1;"	F
+parent	threadctl/atfork.c	/^parent(void)$/;"	f	signature:(void)
+parity	calld/calld.h	/^  enum parity parity;		\/* option from client *\/$/;"	m	struct:__anon3	typeref:enum:__anon3::parity	access:public
+parity	calld/calld.h	/^extern enum parity { NONE, EVEN, ODD } parity;	\/* specified by client *\/$/;"	g
+parity	calld/calld.h	/^extern enum parity { NONE, EVEN, ODD } parity;	\/* specified by client *\/$/;"	x
+parity	calld/main.c	/^enum parity parity = NONE;$/;"	v	typeref:enum:parity
+path_alloc	include/apue.h	/^char	*path_alloc(int *);				\/* {Prog pathalloc} *\/$/;"	p	signature:(int *)
+path_alloc	lib/apue.h	/^char	*path_alloc(int *);				\/* {Prog pathalloc} *\/$/;"	p	signature:(int *)
+path_alloc	lib/pathalloc.c	/^path_alloc(int *sizep) \/* also return allocated size, if nonnull *\/$/;"	f	signature:(int *sizep)
+pathalloc.c	lib/pathalloc.c	1;"	F
+pathmax	lib/pathalloc.c	/^static int	pathmax = 0;$/;"	v	file:
+pathmax	lib/pathalloc.c	/^static int	pathmax = PATH_MAX;$/;"	v	file:
+pathname	opend.fe/main.c	/^char	*pathname;$/;"	v
+pathname	opend.fe/opend.h	/^extern char	*pathname;	\/* of file to open() for client *\/$/;"	x
+pathname	opend/main.c	/^char	*pathname;$/;"	v
+pathname	opend/opend.h	/^extern char	*pathname;	\/* of file to open for client *\/$/;"	x
+pathname	termios/ttyname.c	/^static char				pathname[_POSIX_PATH_MAX + 1];$/;"	v	file:
+pclose	lib/popen.c	/^pclose(FILE *fp)$/;"	f	signature:(FILE *fp)
+pendlock.c	advio/pendlock.c	1;"	F
+pfd1	ipc/tellwait.c	/^static int	pfd1[2], pfd2[2];$/;"	v	file:
+pfd2	ipc/tellwait.c	/^static int	pfd1[2], pfd2[2];$/;"	v	file:
+phone	calld/calld.h	/^  char	*phone;		\/* phone number or "-" if direct connect *\/$/;"	m	struct:__anon4	access:public
+pid	calld/calld.h	/^  pid_t	pid;		\/* child pid while dialing *\/$/;"	m	struct:__anon3	access:public
+pid	calld/lock.c	/^  pid_t	pid;	\/* but unlock by process ID *\/$/;"	m	struct:__anon7	file:	access:public
+pipe1.c	ipc/pipe1.c	1;"	F
+pipe2.c	ipc/pipe2.c	1;"	F
+pipe4.c	ipc/pipe4.c	1;"	F
+popen	lib/popen.c	/^popen(const char *cmdstring, const char *type)$/;"	f	signature:(const char *cmdstring, const char *type)
+popen.c	lib/popen.c	1;"	F
+popen1.c	ipc/popen1.c	1;"	F
+popen2.c	ipc/popen2.c	1;"	F
+posix_openpt	lib/bsd_ptyopen.c	/^posix_openpt(int oflag)$/;"	f	signature:(int oflag)
+posix_openpt	lib/linux_ptyopen.c	/^posix_openpt(int oflag)$/;"	f	signature:(int oflag)
+posix_version	lib/pathalloc.c	/^static long	posix_version = 0;$/;"	v	file:
+pr_exit	include/apue.h	/^void	 pr_exit(int);					\/* {Prog prexit} *\/$/;"	p	signature:(int)
+pr_exit	lib/apue.h	/^void	 pr_exit(int);					\/* {Prog prexit} *\/$/;"	p	signature:(int)
+pr_exit	lib/prexit.c	/^pr_exit(int status)$/;"	f	signature:(int status)
+pr_ids	sess/orphan3.c	/^pr_ids(char *name)$/;"	f	file:	signature:(char *name)
+pr_limits	environ/getrlimit.c	/^pr_limits(char *name, int resource)$/;"	f	file:	signature:(char *name, int resource)
+pr_limits	environ/getrlimit.c	/^static void	pr_limits(char *, int);$/;"	p	file:	signature:(char *, int)
+pr_mask	include/apue.h	/^void	 pr_mask(const char *);			\/* {Prog prmask} *\/$/;"	p	signature:(const char *)
+pr_mask	lib/apue.h	/^void	 pr_mask(const char *);			\/* {Prog prmask} *\/$/;"	p	signature:(const char *)
+pr_mask	lib/prmask.c	/^pr_mask(const char *str)$/;"	f	signature:(const char *str)
+pr_stdio	stdio/buf.c	/^pr_stdio(const char *name, FILE *fp)$/;"	f	signature:(const char *name, FILE *fp)
+pr_stdio	stdio/buf.c	/^void	pr_stdio(const char *, FILE *);$/;"	p	file:	signature:(const char *, FILE *)
+pr_times	proc/times1.c	/^pr_times(clock_t real, struct tms *tmsstart, struct tms *tmsend)$/;"	f	file:	signature:(clock_t real, struct tms *tmsstart, struct tms *tmsend)
+pr_times	proc/times1.c	/^static void	pr_times(clock_t, struct tms *, struct tms *);$/;"	p	file:	signature:(clock_t, struct tms *, struct tms *)
+pr_winsize	termios/winch.c	/^pr_winsize(int fd)$/;"	f	file:	signature:(int fd)
+pracct.c	proc/pracct.c	1;"	F
+prepare	threadctl/atfork.c	/^prepare(void)$/;"	f	signature:(void)
+prev	ipp/printd.c	/^	struct job      *prev;		\/* previous in list *\/$/;"	m	struct:job	typeref:struct:job::job	file:	access:public
+prev	ipp/printd.c	/^	struct worker_thread  *prev;	\/* previous in list *\/$/;"	m	struct:worker_thread	typeref:struct:worker_thread::worker_thread	file:	access:public
+prexit.c	lib/prexit.c	1;"	F
+print.c	ipp/print.c	1;"	F
+print.h	ipp/print.h	1;"	F
+print_family	sockets/findsvc.c	/^print_family(struct addrinfo *aip)$/;"	f	signature:(struct addrinfo *aip)
+print_flags	sockets/findsvc.c	/^print_flags(struct addrinfo *aip)$/;"	f	signature:(struct addrinfo *aip)
+print_protocol	sockets/findsvc.c	/^print_protocol(struct addrinfo *aip)$/;"	f	signature:(struct addrinfo *aip)
+print_type	sockets/findsvc.c	/^print_type(struct addrinfo *aip)$/;"	f	signature:(struct addrinfo *aip)
+print_uptime	sockets/ruptime-dg.c	/^print_uptime(int sockfd, struct addrinfo *aip)$/;"	f	signature:(int sockfd, struct addrinfo *aip)
+print_uptime	sockets/ruptime.c	/^print_uptime(int sockfd)$/;"	f	signature:(int sockfd)
+printd.c	ipp/printd.c	1;"	F
+printer	ipp/printd.c	/^struct addrinfo		*printer;$/;"	v	typeref:struct:addrinfo
+printer_name	ipp/printd.c	/^char					*printer_name;$/;"	v
+printer_status	ipp/printd.c	/^int		printer_status(int, struct job *);$/;"	p	file:	signature:(int, struct job *)
+printer_status	ipp/printd.c	/^printer_status(int sockfd, struct job *jp)$/;"	f	signature:(int sockfd, struct job *jp)
+printer_thread	ipp/printd.c	/^printer_thread(void *arg)$/;"	f	signature:(void *arg)
+printer_thread	ipp/printd.c	/^void		*printer_thread(void *);$/;"	p	file:	signature:(void *)
+printfoo	exercises/goodexit.c	/^printfoo(const char *s, const struct foo *fp)$/;"	f	signature:(const char *s, const struct foo *fp)
+printfoo	threads/badexit2.c	/^printfoo(const char *s, const struct foo *fp)$/;"	f	signature:(const char *s, const struct foo *fp)
+printids	threads/threadid.c	/^printids(const char *s)$/;"	f	signature:(const char *s)
+printreq	ipp/print.h	/^struct printreq {$/;"	s
+printreq::flags	ipp/print.h	/^	long flags;					\/* see below *\/$/;"	m	struct:printreq	access:public
+printreq::jobnm	ipp/print.h	/^	char jobnm[JOBNM_MAX];		\/* job's name *\/$/;"	m	struct:printreq	access:public
+printreq::size	ipp/print.h	/^	long size;					\/* size in bytes *\/$/;"	m	struct:printreq	access:public
+printreq::usernm	ipp/print.h	/^	char usernm[USERNM_MAX];	\/* user's name *\/$/;"	m	struct:printreq	access:public
+printresp	ipp/print.h	/^struct printresp {$/;"	s
+printresp::jobid	ipp/print.h	/^	long jobid;					\/* job ID *\/$/;"	m	struct:printresp	access:public
+printresp::msg	ipp/print.h	/^	char msg[MSGLEN_MAX];		\/* error message *\/$/;"	m	struct:printresp	access:public
+printresp::retcode	ipp/print.h	/^	long retcode;				\/* 0=success, !0=error code *\/$/;"	m	struct:printresp	access:public
+prmask.c	lib/prmask.c	1;"	F
+process_msg	threads/condvar.c	/^process_msg(void)$/;"	f	signature:(void)
+prompt_read	call/call.h	/^int		prompt_read(char *, int (*)(int, char **));$/;"	p	signature:(char *, int (*)(int, char **))
+prompt_read	call/takeput.c	/^prompt_read(char *prompt, int (*userfunc)(int, char **))$/;"	f	signature:(char *prompt, int (*userfunc)(int, char **))
+prtime.c	exercises/prtime.c	1;"	F
+pruids.c	proc/pruids.c	1;"	F
+ptroff	db/db.c	/^  off_t  ptroff; \/* chain ptr offset pointing to this idx record *\/$/;"	m	struct:__anon2	file:	access:public
+ptrval	db/db.c	/^  off_t  ptrval; \/* contents of chain ptr in index record *\/$/;"	m	struct:__anon2	file:	access:public
+ptsname	lib/bsd_ptyopen.c	/^ptsname(int fdm)$/;"	f	signature:(int fdm)
+ptsname	lib/linux_ptyopen.c	/^ptsname(int fdm)$/;"	f	signature:(int fdm)
+pty_fork	include/apue.h	/^pid_t	 pty_fork(int *, char *, int, const struct termios *,$/;"	p	signature:(int *, char *, int, const struct termios *, const struct winsize *)
+pty_fork	lib/apue.h	/^pid_t	 pty_fork(int *, char *, int, const struct termios *,$/;"	p	signature:(int *, char *, int, const struct termios *, const struct winsize *)
+pty_fork	lib/ptyfork.c	/^pty_fork(int *ptrfdm, char *slave_name, int slave_namesz,$/;"	f	signature:(int *ptrfdm, char *slave_name, int slave_namesz, const struct termios *slave_termios, const struct winsize *slave_winsize)
+ptyfork.c	lib/ptyfork.c	1;"	F
+ptym_open	include/apue.h	/^int		 ptym_open(char *, int);	\/* {Progs3 ptyopen_streams ptyopen_bsd ptyopen_linux} *\/$/;"	p	signature:(char *, int)
+ptym_open	lib/apue.h	/^int		 ptym_open(char *, int);	\/* {Progs3 ptyopen_streams ptyopen_bsd ptyopen_linux} *\/$/;"	p	signature:(char *, int)
+ptym_open	lib/bsd_ptyopen.c	/^ptym_open(char *pts_name, int pts_namesz)$/;"	f	signature:(char *pts_name, int pts_namesz)
+ptym_open	lib/linux_ptyopen.c	/^ptym_open(char *pts_name, int pts_namesz)$/;"	f	signature:(char *pts_name, int pts_namesz)
+ptym_open	streams/ptyopen.c	/^ptym_open(char *pts_name, int pts_namesz)$/;"	f	signature:(char *pts_name, int pts_namesz)
+ptyopen.c	streams/ptyopen.c	1;"	F
+ptys_open	include/apue.h	/^int		 ptys_open(char *);			\/* {Progs3 ptyopen_streams ptyopen_bsd ptyopen_linux} *\/$/;"	p	signature:(char *)
+ptys_open	lib/apue.h	/^int		 ptys_open(char *);			\/* {Progs3 ptyopen_streams ptyopen_bsd ptyopen_linux} *\/$/;"	p	signature:(char *)
+ptys_open	lib/bsd_ptyopen.c	/^ptys_open(char *pts_name)$/;"	f	signature:(char *pts_name)
+ptys_open	lib/linux_ptyopen.c	/^ptys_open(char *pts_name)$/;"	f	signature:(char *pts_name)
+ptys_open	streams/ptyopen.c	/^ptys_open(char *pts_name)$/;"	f	signature:(char *pts_name)
+put	call/call.h	/^void	put(int);$/;"	p	signature:(int)
+put	call/put.c	/^put(int remfd)$/;"	f	signature:(int remfd)
+put.c	call/put.c	1;"	F
+q_head	threads/rwlock.c	/^	struct job      *q_head;$/;"	m	struct:queue	typeref:struct:queue::job	file:	access:public
+q_lock	threads/rwlock.c	/^	pthread_rwlock_t q_lock;$/;"	m	struct:queue	file:	access:public
+q_tail	threads/rwlock.c	/^	struct job      *q_tail;$/;"	m	struct:queue	typeref:struct:queue::job	file:	access:public
+qlock	threads/condvar.c	/^pthread_mutex_t qlock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+qready	threads/condvar.c	/^pthread_cond_t qready = PTHREAD_COND_INITIALIZER;$/;"	v
+queue	threads/rwlock.c	/^struct queue {$/;"	s	file:
+queue::q_head	threads/rwlock.c	/^	struct job      *q_head;$/;"	m	struct:queue	typeref:struct:queue::job	file:	access:public
+queue::q_lock	threads/rwlock.c	/^	pthread_rwlock_t q_lock;$/;"	m	struct:queue	file:	access:public
+queue::q_tail	threads/rwlock.c	/^	struct job      *q_tail;$/;"	m	struct:queue	typeref:struct:queue::job	file:	access:public
+queue_init	threads/rwlock.c	/^queue_init(struct queue *qp)$/;"	f	signature:(struct queue *qp)
+quitflag	signals/suspend2.c	/^volatile sig_atomic_t	quitflag;	\/* set nonzero by signal handler *\/$/;"	v
+quitflag	threadctl/suspend.c	/^int			quitflag;	\/* set nonzero by thread *\/$/;"	v
+read1.c	signals/read1.c	1;"	F
+read2.c	signals/read2.c	1;"	F
+read_lock	include/apue.h	/^#define	read_lock(/;"	d
+read_lock	lib/apue.h	/^#define	read_lock(/;"	d
+readmore	ipp/printd.c	/^readmore(int sockfd, char **bpp, int off, int *bszp)$/;"	f	signature:(int sockfd, char **bpp, int off, int *bszp)
+readmore	ipp/printd.c	/^ssize_t	readmore(int, char **, int, int *);$/;"	p	file:	signature:(int, char **, int, int *)
+readn	include/apue.h	/^ssize_t	 readn(int, void *, size_t);		\/* {Prog readn_writen} *\/$/;"	p	signature:(int, void *, size_t)
+readn	lib/apue.h	/^ssize_t	 readn(int, void *, size_t);		\/* {Prog readn_writen} *\/$/;"	p	signature:(int, void *, size_t)
+readn	lib/readn.c	/^readn(int fd, void *ptr, size_t n)$/;"	f	signature:(int fd, void *ptr, size_t n)
+readn.c	lib/readn.c	1;"	F
+readw_lock	include/apue.h	/^#define	readw_lock(/;"	d
+readw_lock	lib/apue.h	/^#define	readw_lock(/;"	d
+recv_fd	include/apue.h	/^int		 recv_fd(int, ssize_t (*func)(int,$/;"	p	signature:(int, ssize_t (*func)(int, const void *, size_t))
+recv_fd	lib/apue.h	/^int		 recv_fd(int, ssize_t (*func)(int,$/;"	p	signature:(int, ssize_t (*func)(int, const void *, size_t))
+recv_fd	lib/recvfd.c	/^recv_fd(int fd, ssize_t (*userfunc)(int, const void *, size_t))$/;"	f	signature:(int fd, ssize_t (*userfunc)(int, const void *, size_t))
+recv_fd	sockets/recvfd.c	/^recv_fd(int fd, ssize_t (*userfunc)(int, const void *, size_t))$/;"	f	signature:(int fd, ssize_t (*userfunc)(int, const void *, size_t))
+recv_fd	streams/recvfd.c	/^recv_fd(int fd, ssize_t (*userfunc)(int, const void *, size_t))$/;"	f	signature:(int fd, ssize_t (*userfunc)(int, const void *, size_t))
+recv_ufd	sockets/recvfd2.c	/^recv_ufd(int fd, uid_t *uidptr,$/;"	f	signature:(int fd, uid_t *uidptr, ssize_t (*userfunc)(int, const void *, size_t))
+recvfd.c	lib/recvfd.c	1;"	F
+recvfd.c	sockets/recvfd.c	1;"	F
+recvfd.c	streams/recvfd.c	1;"	F
+recvfd2.c	sockets/recvfd2.c	1;"	F
+reenter.c	signals/reenter.c	1;"	F
+rem_buf	call/take.c	/^static char		 rem_buf[MAXLINE];$/;"	v	file:
+rem_cnt	call/take.c	/^static int		 rem_cnt = 0;$/;"	v	file:
+rem_ptr	call/take.c	/^static char		*rem_ptr;$/;"	v	file:
+rem_read	call/take.c	/^rem_read(int remfd)$/;"	f	signature:(int remfd)
+rem_read	call/take.c	/^static int		 rem_read(int);$/;"	p	file:	signature:(int)
+remove_job	ipp/printd.c	/^remove_job(struct job *target)$/;"	f	signature:(struct job *target)
+remove_job	ipp/printd.c	/^void		remove_job(struct job *);$/;"	p	file:	signature:(struct job *)
+replace_job	ipp/printd.c	/^replace_job(struct job *jp)$/;"	f	signature:(struct job *jp)
+replace_job	ipp/printd.c	/^void		replace_job(struct job *);$/;"	p	file:	signature:(struct job *)
+req	ipp/printd.c	/^	struct printreq  req;		\/* copy of print request *\/$/;"	m	struct:job	typeref:struct:job::printreq	file:	access:public
+request	calld/calld.h	/^int   request(Client *);					\/* request.c *\/$/;"	p	signature:(Client *)
+request	calld/request.c	/^request(Client *cliptr)$/;"	f	signature:(Client *cliptr)
+request	opend.fe/opend.h	/^void	 request(char *, int, int);$/;"	p	signature:(char *, int, int)
+request	opend.fe/request.c	/^request(char *buf, int nread, int fd)$/;"	f	signature:(char *buf, int nread, int fd)
+request	opend/opend.h	/^void	 request(char *, int, int, uid_t);$/;"	p	signature:(char *, int, int, uid_t)
+request	opend/request.c	/^request(char *buf, int nread, int clifd, uid_t uid)$/;"	f	signature:(char *buf, int nread, int clifd, uid_t uid)
+request.c	calld/request.c	1;"	F
+request.c	opend.fe/request.c	1;"	F
+request.c	opend/request.c	1;"	F
+request_id	ipp/ipp.h	/^	int32_t request_id;		\/* request ID *\/$/;"	m	struct:ipp_hdr	access:public
+reread	daemons/reread.c	/^reread(void)$/;"	f	signature:(void)
+reread	daemons/reread2.c	/^reread(void)$/;"	f	signature:(void)
+reread	ipp/printd.c	/^int					reread;$/;"	v
+reread.c	daemons/reread.c	1;"	F
+reread2.c	daemons/reread2.c	1;"	F
+retcode	ipp/print.h	/^	long retcode;				\/* 0=success, !0=error code *\/$/;"	m	struct:printresp	access:public
+retry	threadctl/timeout.c	/^retry(void *arg)$/;"	f	signature:(void *arg)
+ruptime-dg.c	sockets/ruptime-dg.c	1;"	F
+ruptime.c	sockets/ruptime.c	1;"	F
+ruptimed-dg.c	sockets/ruptimed-dg.c	1;"	F
+ruptimed-fd.c	sockets/ruptimed-fd.c	1;"	F
+ruptimed.c	sockets/ruptimed.c	1;"	F
+rwlock.c	threads/rwlock.c	1;"	F
+s_pipe	include/apue.h	/^int		 s_pipe(int *);					\/* {Progs streams_spipe sock_spipe} *\/$/;"	p	signature:(int *)
+s_pipe	lib/apue.h	/^int		 s_pipe(int *);					\/* {Progs streams_spipe sock_spipe} *\/$/;"	p	signature:(int *)
+s_pipe	lib/spipe.c	/^s_pipe(int fd[2])$/;"	f	signature:(int fd[2])
+s_pipe	sockets/spipe.c	/^s_pipe(int fd[2])$/;"	f	signature:(int fd[2])
+s_pipe	streams/spipe.c	/^s_pipe(int fd[2])$/;"	f	signature:(int fd[2])
+save_termios	lib/ttymodes.c	/^static struct termios		save_termios;$/;"	v	typeref:struct:termios	file:
+scan_configfile	ipp/util.c	/^scan_configfile(char *keyword)$/;"	f	file:	signature:(char *keyword)
+searchdir	termios/ttyname.c	/^searchdir(char *dirname, struct stat *fdstatp)$/;"	f	file:	signature:(char *dirname, struct stat *fdstatp)
+seek.c	file/seek.c	1;"	F
+sem_close	lib/semaph.c	/^sem_close(int id)$/;"	f	signature:(int id)
+sem_close	lib/semaph.c	/^void	sem_close(int);$/;"	p	file:	signature:(int)
+sem_create	lib/semaph.c	/^int		sem_create(key_t, int);$/;"	p	file:	signature:(key_t, int)
+sem_create	lib/semaph.c	/^sem_create(key_t key, int initval)$/;"	f	signature:(key_t key, int initval)
+sem_op	lib/semaph.c	/^sem_op(int id, int value)$/;"	f	signature:(int id, int value)
+sem_op	lib/semaph.c	/^void	sem_op(int, int);$/;"	p	file:	signature:(int, int)
+sem_open	lib/semaph.c	/^int		sem_open(key_t);$/;"	p	file:
+sem_open	lib/semaph.c	/^sem_open(key_t key)$/;"	f	signature:(key_t key)
+sem_rm	lib/semaph.c	/^sem_rm(int id)$/;"	f	signature:(int id)
+sem_rm	lib/semaph.c	/^void	sem_rm(int);$/;"	p	file:	signature:(int)
+sem_signal	lib/semaph.c	/^sem_signal(int id)$/;"	f	signature:(int id)
+sem_signal	lib/semaph.c	/^void	sem_signal(int);$/;"	p	file:	signature:(int)
+sem_wait	lib/semaph.c	/^sem_wait(int id)$/;"	f	signature:(int id)
+sem_wait	lib/semaph.c	/^void	sem_wait(int);$/;"	p	file:	signature:(int)
+semaph.c	lib/semaph.c	1;"	F
+send_err	include/apue.h	/^int		 send_err(int, int,$/;"	p	signature:(int, int, const char *)
+send_err	lib/apue.h	/^int		 send_err(int, int,$/;"	p	signature:(int, int, const char *)
+send_err	lib/senderr.c	/^send_err(int fd, int errcode, const char *msg)$/;"	f	signature:(int fd, int errcode, const char *msg)
+send_fd	include/apue.h	/^int		 send_fd(int, int);				\/* {Progs sendfd_streams sendfd_sockets} *\/$/;"	p	signature:(int, int)
+send_fd	lib/apue.h	/^int		 send_fd(int, int);				\/* {Progs sendfd_streams sendfd_sockets} *\/$/;"	p	signature:(int, int)
+send_fd	lib/sendfd.c	/^send_fd(int fd, int fd_to_send)$/;"	f	signature:(int fd, int fd_to_send)
+send_fd	sockets/sendfd.c	/^send_fd(int fd, int fd_to_send)$/;"	f	signature:(int fd, int fd_to_send)
+send_fd	sockets/sendfd2.c	/^send_fd(int fd, int fd_to_send)$/;"	f	signature:(int fd, int fd_to_send)
+send_fd	streams/sendfd.c	/^send_fd(int fd, int fd_to_send)$/;"	f	signature:(int fd, int fd_to_send)
+send_str	calld/calld.h	/^int   send_str(int, char *, char *, int);	\/* sendstr.c *\/$/;"	p	signature:(int, char *, char *, int)
+send_str	calld/sendstr.c	/^send_str(int fd, char *ptr, char *phone, int echocheck)$/;"	f	signature:(int fd, char *ptr, char *phone, int echocheck)
+senderr.c	lib/senderr.c	1;"	F
+sendfd.c	lib/sendfd.c	1;"	F
+sendfd.c	sockets/sendfd.c	1;"	F
+sendfd.c	streams/sendfd.c	1;"	F
+sendfd2.c	sockets/sendfd2.c	1;"	F
+sendstr.c	calld/sendstr.c	1;"	F
+serv_accept	include/apue.h	/^int		 serv_accept(int, uid_t *);		\/* {Progs servaccept_streams servaccept_sockets} *\/$/;"	p	signature:(int, uid_t *)
+serv_accept	lib/apue.h	/^int		 serv_accept(int, uid_t *);		\/* {Progs servaccept_streams servaccept_sockets} *\/$/;"	p	signature:(int, uid_t *)
+serv_accept	lib/servaccept.c	/^serv_accept(int listenfd, uid_t *uidptr)$/;"	f	signature:(int listenfd, uid_t *uidptr)
+serv_accept	sockets/servaccept.c	/^serv_accept(int listenfd, uid_t *uidptr)$/;"	f	signature:(int listenfd, uid_t *uidptr)
+serv_accept	streams/servaccept.c	/^serv_accept(int listenfd, uid_t *uidptr)$/;"	f	signature:(int listenfd, uid_t *uidptr)
+serv_listen	include/apue.h	/^int		 serv_listen(const char *);		\/* {Progs servlisten_streams servlisten_sockets} *\/$/;"	p	signature:(const char *)
+serv_listen	lib/apue.h	/^int		 serv_listen(const char *);		\/* {Progs servlisten_streams servlisten_sockets} *\/$/;"	p	signature:(const char *)
+serv_listen	lib/servlisten.c	/^serv_listen(const char *name)$/;"	f	signature:(const char *name)
+serv_listen	sockets/servlisten.c	/^serv_listen(const char *name)$/;"	f	signature:(const char *name)
+serv_listen	streams/servlisten.c	/^serv_listen(const char *name)$/;"	f	signature:(const char *name)
+servaccept.c	lib/servaccept.c	1;"	F
+servaccept.c	sockets/servaccept.c	1;"	F
+servaccept.c	streams/servaccept.c	1;"	F
+serve	sockets/ruptimed-dg.c	/^serve(int sockfd)$/;"	f	signature:(int sockfd)
+serve	sockets/ruptimed-fd.c	/^serve(int sockfd)$/;"	f	signature:(int sockfd)
+serve	sockets/ruptimed.c	/^serve(int sockfd)$/;"	f	signature:(int sockfd)
+servlisten.c	lib/servlisten.c	1;"	F
+servlisten.c	sockets/servlisten.c	1;"	F
+servlisten.c	streams/servlisten.c	1;"	F
+set_fl	include/apue.h	/^void	 set_fl(int, int);				\/* {Prog setfl} *\/$/;"	p	signature:(int, int)
+set_fl	lib/apue.h	/^void	 set_fl(int, int);				\/* {Prog setfl} *\/$/;"	p	signature:(int, int)
+set_fl	lib/setfl.c	/^set_fl(int fd, int flags) \/* flags are file status flags to turn on *\/$/;"	f	signature:(int fd, int flags)
+set_noecho	pty/main.c	/^set_noecho(int fd)		\/* turn off echo (for slave pty) *\/$/;"	f	file:	signature:(int fd)
+set_noecho	pty/main.c	/^static void	set_noecho(int);	\/* at the end of this file *\/$/;"	p	file:	signature:(int)
+setasync	exercises/asyncsocket.c	/^setasync(int sockfd)$/;"	f	signature:(int sockfd)
+setfl.c	lib/setfl.c	1;"	F
+setops.c	signals/setops.c	1;"	F
+settty.c	termios/settty.c	1;"	F
+shell1.c	proc/shell1.c	1;"	F
+shell2.c	proc/shell2.c	1;"	F
+sig_alrm	calld/expectstr.c	/^sig_alrm(int signo)$/;"	f	file:	signature:(int signo)
+sig_alrm	lib/sleep.c	/^sig_alrm(int signo)$/;"	f	file:	signature:(int signo)
+sig_alrm	signals/mask.c	/^sig_alrm(int signo)$/;"	f	file:	signature:(int signo)
+sig_alrm	signals/mask.c	/^static void						sig_usr1(int), sig_alrm(int);$/;"	p	file:	signature:(int)
+sig_alrm	signals/read1.c	/^sig_alrm(int signo)$/;"	f	file:	signature:(int signo)
+sig_alrm	signals/read1.c	/^static void	sig_alrm(int);$/;"	p	file:	signature:(int)
+sig_alrm	signals/read2.c	/^sig_alrm(int signo)$/;"	f	file:	signature:(int signo)
+sig_alrm	signals/read2.c	/^static void		sig_alrm(int);$/;"	p	file:	signature:(int)
+sig_alrm	signals/sleep1.c	/^sig_alrm(int signo)$/;"	f	file:	signature:(int signo)
+sig_alrm	signals/sleep2.c	/^sig_alrm(int signo)$/;"	f	file:	signature:(int signo)
+sig_catch	termios/t_raw.c	/^sig_catch(int signo)$/;"	f	file:	signature:(int signo)
+sig_chld	calld/calld.h	/^void  sig_chld(int);						\/* sigchld.c *\/$/;"	p	signature:(int)
+sig_chld	calld/sigchld.c	/^sig_chld(int signo)$/;"	f	signature:(int signo)
+sig_chld	proc/systest2.c	/^sig_chld(int signo)$/;"	f	file:	signature:(int signo)
+sig_cld	signals/child.c	/^sig_cld(int signo)	\/* interrupts pause() *\/$/;"	f	file:	signature:(int signo)
+sig_cld	signals/child.c	/^static void	sig_cld(int);$/;"	p	file:	signature:(int)
+sig_hup	sess/orphan3.c	/^sig_hup(int signo)$/;"	f	file:	signature:(int signo)
+sig_int	proc/shell2.c	/^sig_int(int signo)$/;"	f	signature:(int signo)
+sig_int	proc/shell2.c	/^static void	sig_int(int);		\/* our signal-catching function *\/$/;"	p	file:	signature:(int)
+sig_int	proc/systest2.c	/^sig_int(int signo)$/;"	f	file:	signature:(int signo)
+sig_int	signals/suspend1.c	/^sig_int(int signo)$/;"	f	file:	signature:(int signo)
+sig_int	signals/suspend1.c	/^static void	sig_int(int);$/;"	p	file:	signature:(int)
+sig_int	signals/suspend2.c	/^sig_int(int signo)	\/* one signal handler for SIGINT and SIGQUIT *\/$/;"	f	file:	signature:(int signo)
+sig_int	signals/tsleep2.c	/^sig_int(int signo)$/;"	f	file:	signature:(int signo)
+sig_int	signals/tsleep2.c	/^static void		sig_int(int);$/;"	p	file:	signature:(int)
+sig_pipe	ipc/pipe4.c	/^sig_pipe(int signo)$/;"	f	file:	signature:(int signo)
+sig_pipe	ipc/pipe4.c	/^static void	sig_pipe(int);		\/* our signal handler *\/$/;"	p	file:	signature:(int)
+sig_pipe	ipc/spipe4.c	/^sig_pipe(int signo)$/;"	f	file:	signature:(int signo)
+sig_pipe	ipc/spipe4.c	/^static void	sig_pipe(int);		\/* our signal handler *\/$/;"	p	file:	signature:(int)
+sig_quit	signals/critical.c	/^sig_quit(int signo)$/;"	f	file:	signature:(int signo)
+sig_quit	signals/critical.c	/^static void	sig_quit(int);$/;"	p	file:	signature:(int)
+sig_term	pty/loop.c	/^sig_term(int signo)$/;"	f	file:	signature:(int signo)
+sig_term	pty/loop.c	/^static void	sig_term(int);$/;"	p	file:	signature:(int)
+sig_tstp	signals/sigtstp.c	/^sig_tstp(int signo)	\/* signal handler for SIGTSTP *\/$/;"	f	file:	signature:(int signo)
+sig_tstp	signals/sigtstp.c	/^static void	sig_tstp(int);$/;"	p	file:	signature:(int)
+sig_usr	lib/tellwait.c	/^sig_usr(int signo)	\/* one signal handler for SIGUSR1 and SIGUSR2 *\/$/;"	f	file:	signature:(int signo)
+sig_usr	signals/sigusr.c	/^sig_usr(int signo)		\/* argument is signal number *\/$/;"	f	file:	signature:(int signo)
+sig_usr	signals/sigusr.c	/^static void	sig_usr(int);	\/* one handler for both signals *\/$/;"	p	file:	signature:(int)
+sig_usr1	signals/mask.c	/^sig_usr1(int signo)$/;"	f	file:	signature:(int signo)
+sig_usr1	signals/mask.c	/^static void						sig_usr1(int), sig_alrm(int);$/;"	p	file:	signature:(int)
+sig_winch	termios/winch.c	/^sig_winch(int signo)$/;"	f	file:	signature:(int signo)
+sigaddset	signals/setops.c	/^sigaddset(sigset_t *set, int signo)$/;"	f	signature:(sigset_t *set, int signo)
+sigalrm	sockets/ruptime-dg.c	/^sigalrm(int signo)$/;"	f	signature:(int signo)
+sigcaught	pty/loop.c	/^static volatile sig_atomic_t	sigcaught;	\/* set by signal handler *\/$/;"	v	file:
+sigchld.c	calld/sigchld.c	1;"	F
+sigdelset	signals/setops.c	/^sigdelset(sigset_t *set, int signo)$/;"	f	signature:(sigset_t *set, int signo)
+sigflag	lib/tellwait.c	/^static volatile sig_atomic_t sigflag; \/* set nonzero by sig handler *\/$/;"	v	file:
+sighup	daemons/reread2.c	/^sighup(int signo)$/;"	f	signature:(int signo)
+sigint	advio/pendlock.c	/^sigint(int signo)$/;"	f	signature:(int signo)
+sigismember	signals/setops.c	/^sigismember(const sigset_t *set, int signo)$/;"	f	signature:(const sigset_t *set, int signo)
+signal	lib/signal.c	/^signal(int signo, Sigfunc *func)$/;"	f	signature:(int signo, Sigfunc *func)
+signal.c	lib/signal.c	1;"	F
+signal_intr	include/apue.h	/^Sigfunc	*signal_intr(int, Sigfunc *);	\/* {Prog signal_intr_function} *\/$/;"	p	signature:(int, Sigfunc *)
+signal_intr	lib/apue.h	/^Sigfunc	*signal_intr(int, Sigfunc *);	\/* {Prog signal_intr_function} *\/$/;"	p	signature:(int, Sigfunc *)
+signal_intr	lib/signalintr.c	/^signal_intr(int signo, Sigfunc *func)$/;"	f	signature:(int signo, Sigfunc *func)
+signal_thread	ipp/printd.c	/^signal_thread(void *arg)$/;"	f	signature:(void *arg)
+signal_thread	ipp/printd.c	/^void		*signal_thread(void *);$/;"	p	file:	signature:(void *)
+signalintr.c	lib/signalintr.c	1;"	F
+sigterm	daemons/reread2.c	/^sigterm(int signo)$/;"	f	signature:(int signo)
+sigtstp.c	signals/sigtstp.c	1;"	F
+sigusr.c	signals/sigusr.c	1;"	F
+single.c	daemons/single.c	1;"	F
+size	ipp/print.h	/^	long size;					\/* size in bytes *\/$/;"	m	struct:printreq	access:public
+sizepipe.c	exercises/sizepipe.c	1;"	F
+sleep	exercises/sleep.c	/^sleep(unsigned nsec)$/;"	f	signature:(unsigned nsec)
+sleep	lib/sleep.c	/^sleep(unsigned int nsecs)$/;"	f	signature:(unsigned int nsecs)
+sleep.c	exercises/sleep.c	1;"	F
+sleep.c	lib/sleep.c	1;"	F
+sleep1	signals/sleep1.c	/^sleep1(unsigned int nsecs)$/;"	f	signature:(unsigned int nsecs)
+sleep1.c	signals/sleep1.c	1;"	F
+sleep2	signals/sleep2.c	/^sleep2(unsigned int nsecs)$/;"	f	signature:(unsigned int nsecs)
+sleep2	signals/tsleep2.c	/^unsigned int	sleep2(unsigned int);$/;"	p	file:	signature:(unsigned int)
+sleep2.c	signals/sleep2.c	1;"	F
+sleep_us	exercises/sleepus_poll.c	/^sleep_us(unsigned int nusecs)$/;"	f	signature:(unsigned int nusecs)
+sleep_us	exercises/sleepus_select.c	/^sleep_us(unsigned int nusecs)$/;"	f	signature:(unsigned int nusecs)
+sleep_us	include/apue.h	/^void	 sleep_us(unsigned int);			\/* {Ex sleepus} *\/$/;"	p	signature:(unsigned int)
+sleep_us	lib/apue.h	/^void	 sleep_us(unsigned int);			\/* {Ex sleepus} *\/$/;"	p	signature:(unsigned int)
+sleep_us	lib/sleepus.c	/^sleep_us(unsigned int nusecs)$/;"	f	signature:(unsigned int nusecs)
+sleepus.c	lib/sleepus.c	1;"	F
+sleepus_poll.c	exercises/sleepus_poll.c	1;"	F
+sleepus_select.c	exercises/sleepus_select.c	1;"	F
+sockfd	ipp/printd.c	/^	int                    sockfd;	\/* socket *\/$/;"	m	struct:worker_thread	file:	access:public
+solaris.mk	advio/solaris.mk	1;"	F
+solaris.mk	call/solaris.mk	1;"	F
+solaris.mk	calld/solaris.mk	1;"	F
+solaris.mk	daemons/solaris.mk	1;"	F
+solaris.mk	datafiles/solaris.mk	1;"	F
+solaris.mk	db/solaris.mk	1;"	F
+solaris.mk	environ/solaris.mk	1;"	F
+solaris.mk	exercises/solaris.mk	1;"	F
+solaris.mk	file/solaris.mk	1;"	F
+solaris.mk	ipc/solaris.mk	1;"	F
+solaris.mk	ipp/solaris.mk	1;"	F
+solaris.mk	lib/solaris.mk	1;"	F
+solaris.mk	lock/solaris.mk	1;"	F
+solaris.mk	mycat/solaris.mk	1;"	F
+solaris.mk	open.fe/solaris.mk	1;"	F
+solaris.mk	open/solaris.mk	1;"	F
+solaris.mk	opend.fe/solaris.mk	1;"	F
+solaris.mk	opend/solaris.mk	1;"	F
+solaris.mk	proc/solaris.mk	1;"	F
+solaris.mk	pty/solaris.mk	1;"	F
+solaris.mk	sess/solaris.mk	1;"	F
+solaris.mk	signals/solaris.mk	1;"	F
+solaris.mk	sockets/solaris.mk	1;"	F
+solaris.mk	std/solaris.mk	1;"	F
+solaris.mk	stdio/solaris.mk	1;"	F
+solaris.mk	streams/solaris.mk	1;"	F
+solaris.mk	termios/solaris.mk	1;"	F
+solaris.mk	threadctl/solaris.mk	1;"	F
+solaris.mk	threads/solaris.mk	1;"	F
+speed	calld/calld.h	/^  char	speed[MAXSPEEDSTR];	\/* option from client *\/$/;"	m	struct:__anon3	access:public
+speed	calld/calld.h	/^extern char   *speed;	\/* speed (actually "class") to use *\/$/;"	x
+speed	calld/main.c	/^char		*speed, *sysname;$/;"	v
+spipe.c	lib/spipe.c	1;"	F
+spipe.c	sockets/spipe.c	1;"	F
+spipe.c	streams/spipe.c	1;"	F
+spipe4.c	ipc/spipe4.c	1;"	F
+src	call/call.h	/^extern char	*src;		\/* for take and put commands *\/$/;"	x
+src	call/main.c	/^char	*src;$/;"	v
+st	ipp/ipp.h	/^		int16_t st;	\/* status *\/$/;"	m	union:ipp_hdr::__anon1	access:public
+status	ipp/ipp.h	/^#define status /;"	d
+strlist.c	streams/strlist.c	1;"	F
+sub	calld/calld.h	/^  char	*sub;		\/* phone number substitution string (ignored) *\/$/;"	m	struct:__anon6	access:public
+submit_file	ipp/print.c	/^submit_file(int fd, int sockfd, const char *fname, size_t nbytes,$/;"	f	signature:(int fd, int sockfd, const char *fname, size_t nbytes, int text)
+submit_file	ipp/print.c	/^void submit_file(int, int, const char *, size_t, int);$/;"	p	file:	signature:(int, int, const char *, size_t, int)
+suspend.c	threadctl/suspend.c	1;"	F
+suspend1.c	signals/suspend1.c	1;"	F
+suspend2.c	signals/suspend2.c	1;"	F
+sys_next	calld/calld.h	/^long  sys_next(Systems *);					\/* sysfile.c *\/$/;"	p	signature:(Systems *)
+sys_next	calld/sysfile.c	/^sys_next(Systems *sysptr)	\/* structure is filled in with pointers *\/$/;"	f	signature:(Systems *sysptr)
+sys_posn	calld/calld.h	/^void  sys_posn(long);$/;"	p	signature:(long)
+sys_posn	calld/sysfile.c	/^sys_posn(long posn)		\/* position Systems file *\/$/;"	f	signature:(long posn)
+sys_rew	calld/calld.h	/^void  sys_rew(void);$/;"	p	signature:(void)
+sys_rew	calld/sysfile.c	/^sys_rew(void)$/;"	f	signature:(void)
+sysfile.c	calld/sysfile.c	1;"	F
+sysftell	calld/calld.h	/^  long	sysftell;	\/* next line to read in Systems file *\/$/;"	m	struct:__anon3	access:public
+sysline	calld/sysfile.c	/^static char	 sysline[MAXLINE];$/;"	v	file:
+syslineno	calld/sysfile.c	/^static int	 syslineno;			\/* for error messages *\/$/;"	v	file:
+sysname	calld/calld.h	/^  char	sysname[MAXSYSNAME];\/* option from client *\/$/;"	m	struct:__anon3	access:public
+sysname	calld/calld.h	/^extern char   *sysname;	\/* name of system to call *\/$/;"	x
+sysname	calld/main.c	/^char		*speed, *sysname;$/;"	v
+system	proc/system.c	/^system(const char *cmdstring)	\/* version without signal handling *\/$/;"	f	signature:(const char *cmdstring)
+system	signals/system.c	/^system(const char *cmdstring)	\/* with appropriate signal handling *\/$/;"	f	signature:(const char *cmdstring)
+system.c	proc/system.c	1;"	F
+system.c	signals/system.c	1;"	F
+systems	calld/calld.h	/^extern Systems	systems;	\/* filled in by sys_next() *\/$/;"	x
+systems	calld/main.c	/^Systems		systems;$/;"	v
+systest1.c	proc/systest1.c	1;"	F
+systest2.c	proc/systest2.c	1;"	F
+systest3.c	proc/systest3.c	1;"	F
+systype.sh	systype.sh	1;"	F
+t4.c	db/t4.c	1;"	F
+t_getpass.c	termios/t_getpass.c	1;"	F
+t_isastream.c	streams/t_isastream.c	1;"	F
+t_isatty.c	termios/t_isatty.c	1;"	F
+t_raw.c	termios/t_raw.c	1;"	F
+t_ttyname.c	termios/t_ttyname.c	1;"	F
+tail	termios/ttyname.c	/^static struct devdir	*tail;$/;"	v	typeref:struct:devdir	file:
+take	call/call.h	/^void	take(int);$/;"	p	signature:(int)
+take	call/take.c	/^take(int remfd)$/;"	f	signature:(int remfd)
+take.c	call/take.c	1;"	F
+take_put_args	call/call.h	/^int		take_put_args(int, char **);$/;"	p	signature:(int, char **)
+take_put_args	call/takeput.c	/^take_put_args(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+takeput.c	call/takeput.c	1;"	F
+tellwait.c	ipc/tellwait.c	1;"	F
+tellwait.c	lib/tellwait.c	1;"	F
+tellwait1.c	proc/tellwait1.c	1;"	F
+tellwait2.c	proc/tellwait2.c	1;"	F
+tempfiles.c	stdio/tempfiles.c	1;"	F
+tempnam.c	stdio/tempnam.c	1;"	F
+test1.c	proc/test1.c	1;"	F
+testerror.c	file/testerror.c	1;"	F
+testjmp.c	environ/testjmp.c	1;"	F
+thr_fn	daemons/reread.c	/^thr_fn(void *arg)$/;"	f	signature:(void *arg)
+thr_fn	threadctl/atfork.c	/^thr_fn(void *arg)$/;"	f	signature:(void *arg)
+thr_fn	threadctl/suspend.c	/^thr_fn(void *arg)$/;"	f	signature:(void *arg)
+thr_fn	threads/threadid.c	/^thr_fn(void *arg)$/;"	f	signature:(void *arg)
+thr_fn1	exercises/goodexit.c	/^thr_fn1(void *arg)$/;"	f	signature:(void *arg)
+thr_fn1	threads/badexit2.c	/^thr_fn1(void *arg)$/;"	f	signature:(void *arg)
+thr_fn1	threads/cleanup.c	/^thr_fn1(void *arg)$/;"	f	signature:(void *arg)
+thr_fn1	threads/exitstatus.c	/^thr_fn1(void *arg)$/;"	f	signature:(void *arg)
+thr_fn2	threads/badexit2.c	/^thr_fn2(void *arg)$/;"	f	signature:(void *arg)
+thr_fn2	threads/cleanup.c	/^thr_fn2(void *arg)$/;"	f	signature:(void *arg)
+thr_fn2	threads/exitstatus.c	/^thr_fn2(void *arg)$/;"	f	signature:(void *arg)
+thread_init	threadctl/getenv2.c	/^thread_init(void)$/;"	f	file:	signature:(void)
+thread_init	threadctl/getenv3.c	/^thread_init(void)$/;"	f	file:	signature:(void)
+threadid.c	threads/threadid.c	1;"	F
+tid	ipp/printd.c	/^	pthread_t              tid;		\/* thread ID *\/$/;"	m	struct:worker_thread	file:	access:public
+time	calld/calld.h	/^  char	*time;		\/* (e.g., "Any") time to call (ignored) *\/$/;"	m	struct:__anon4	access:public
+timeout	threadctl/timeout.c	/^timeout(const struct timespec *when, void (*func)(void *), void *arg)$/;"	f	signature:(const struct timespec *when, void (*func)(void *), void *arg)
+timeout.c	threadctl/timeout.c	1;"	F
+timeout_helper	threadctl/timeout.c	/^timeout_helper(void *arg)$/;"	f	signature:(void *arg)
+times1.c	proc/times1.c	1;"	F
+to_arg	threadctl/timeout.c	/^	void	*to_arg;			\/* argument *\/$/;"	m	struct:to_info	file:	access:public
+to_fn	threadctl/timeout.c	/^	void	(*to_fn)(void *);	\/* function *\/$/;"	m	struct:to_info	file:	access:public
+to_info	threadctl/timeout.c	/^struct to_info {$/;"	s	file:
+to_info::to_arg	threadctl/timeout.c	/^	void	*to_arg;			\/* argument *\/$/;"	m	struct:to_info	file:	access:public
+to_info::to_fn	threadctl/timeout.c	/^	void	(*to_fn)(void *);	\/* function *\/$/;"	m	struct:to_info	file:	access:public
+to_info::to_wait	threadctl/timeout.c	/^	struct timespec to_wait;	\/* time to wait *\/$/;"	m	struct:to_info	typeref:struct:to_info::timespec	file:	access:public
+to_wait	threadctl/timeout.c	/^	struct timespec to_wait;	\/* time to wait *\/$/;"	m	struct:to_info	typeref:struct:to_info::timespec	file:	access:public
+tok_ptr	environ/cmd1.c	/^char	*tok_ptr;		\/* global pointer for get_token() *\/$/;"	v
+tread	ipp/print.h	/^extern ssize_t tread(int, void *, size_t, unsigned int);$/;"	p	signature:(int, void *, size_t, unsigned int)
+tread	ipp/util.c	/^tread(int fd, void *buf, size_t nbytes, unsigned int timout)$/;"	f	signature:(int fd, void *buf, size_t nbytes, unsigned int timout)
+treadn	ipp/print.h	/^extern ssize_t treadn(int, void *, size_t, unsigned int);$/;"	p	signature:(int, void *, size_t, unsigned int)
+treadn	ipp/util.c	/^treadn(int fd, void *buf, size_t nbytes, unsigned int timout)$/;"	f	signature:(int fd, void *buf, size_t nbytes, unsigned int timout)
+tshm.c	ipc/tshm.c	1;"	F
+tsleep2.c	signals/tsleep2.c	1;"	F
+tty_atexit	include/apue.h	/^void	 tty_atexit(void);				\/* {Prog raw} *\/$/;"	p	signature:(void)
+tty_atexit	lib/apue.h	/^void	 tty_atexit(void);				\/* {Prog raw} *\/$/;"	p	signature:(void)
+tty_atexit	lib/ttymodes.c	/^tty_atexit(void)		\/* can be set up by atexit(tty_atexit) *\/$/;"	f	signature:(void)
+tty_cbreak	include/apue.h	/^int		 tty_cbreak(int);				\/* {Prog raw} *\/$/;"	p	signature:(int)
+tty_cbreak	lib/apue.h	/^int		 tty_cbreak(int);				\/* {Prog raw} *\/$/;"	p	signature:(int)
+tty_cbreak	lib/ttymodes.c	/^tty_cbreak(int fd)	\/* put terminal into a cbreak mode *\/$/;"	f	signature:(int fd)
+tty_dial	calld/calld.h	/^int   tty_dial(int, char *, char *, char *, char *);	\/* ttydial.c *\/$/;"	p	signature:(int, char *, char *, char *, char *)
+tty_dial	calld/ttydial.c	/^tty_dial(int fd, char *phone, char *dialer, char *sub, char *expsend)$/;"	f	signature:(int fd, char *phone, char *dialer, char *sub, char *expsend)
+tty_open	calld/calld.h	/^int   tty_open(char *, char *, enum parity, int);	\/* ttyopen.c *\/$/;"	p	signature:(char *, char *, enum parity, int)
+tty_open	calld/ttyopen.c	/^tty_open(char *class, char *line, enum parity parity, int modem)$/;"	f	signature:(char *class, char *line, enum parity parity, int modem)
+tty_raw	include/apue.h	/^int		 tty_raw(int);					\/* {Prog raw} *\/$/;"	p	signature:(int)
+tty_raw	lib/apue.h	/^int		 tty_raw(int);					\/* {Prog raw} *\/$/;"	p	signature:(int)
+tty_raw	lib/ttymodes.c	/^tty_raw(int fd)		\/* put terminal into a raw mode *\/$/;"	f	signature:(int fd)
+tty_reset	include/apue.h	/^int		 tty_reset(int);				\/* {Prog raw} *\/$/;"	p	signature:(int)
+tty_reset	lib/apue.h	/^int		 tty_reset(int);				\/* {Prog raw} *\/$/;"	p	signature:(int)
+tty_reset	lib/ttymodes.c	/^tty_reset(int fd)		\/* restore terminal's mode *\/$/;"	f	signature:(int fd)
+tty_termios	include/apue.h	/^struct termios	*tty_termios(void);		\/* {Prog raw} *\/$/;"	p	signature:(void)
+tty_termios	lib/apue.h	/^struct termios	*tty_termios(void);		\/* {Prog raw} *\/$/;"	p	signature:(void)
+tty_termios	lib/ttymodes.c	/^tty_termios(void)		\/* let caller see original tty state *\/$/;"	f	signature:(void)
+ttydial.c	calld/ttydial.c	1;"	F
+ttymodes.c	lib/ttymodes.c	1;"	F
+ttyname	termios/ttyname.c	/^ttyname(int fd)$/;"	f	signature:(int fd)
+ttyname.c	termios/ttyname.c	1;"	F
+ttyopen.c	calld/ttyopen.c	1;"	F
+ttysavefd	lib/ttymodes.c	/^static int					ttysavefd = -1;$/;"	v	file:
+ttystate	lib/ttymodes.c	/^static enum { RESET, RAW, CBREAK }	ttystate = RESET;$/;"	v	typeref:enum:__anon9	file:
+type	calld/calld.h	/^  char	*type;		\/* (e.g., "ACU") matched by type in Systems *\/$/;"	m	struct:__anon5	access:public
+type	calld/calld.h	/^  char	*type;		\/* (e.g., "ACU") or system name if direct connect *\/$/;"	m	struct:__anon4	access:public
+u	ipp/ipp.h	/^	} u;$/;"	m	struct:ipp_hdr	typeref:union:ipp_hdr::__anon1	access:public
+uid	calld/calld.h	/^  uid_t	uid;		\/* client's user ID *\/$/;"	m	struct:__anon3	access:public
+uid	calld/calld.h	/^extern uid_t  uid;      \/* client's uid *\/$/;"	x
+uid	calld/main.c	/^uid_t		uid;$/;"	v
+uid	opend/opend.h	/^  uid_t	uid;$/;"	m	struct:__anon8	access:public
+uidgid.c	file/uidgid.c	1;"	F
+umask.c	file/umask.c	1;"	F
+un_lock	include/apue.h	/^#define	un_lock(/;"	d
+un_lock	lib/apue.h	/^#define	un_lock(/;"	d
+unlink.c	file/unlink.c	1;"	F
+unlockpt	lib/bsd_ptyopen.c	/^unlockpt(int fdm)$/;"	f	signature:(int fdm)
+unlockpt	lib/linux_ptyopen.c	/^unlockpt(int fdm)$/;"	f	signature:(int fdm)
+update	advio/devzero.c	/^update(long *ptr)$/;"	f	file:	signature:(long *ptr)
+update_jobno	ipp/printd.c	/^update_jobno(void)$/;"	f	signature:(void)
+update_jobno	ipp/printd.c	/^void		update_jobno(void);$/;"	p	file:	signature:(void)
+usage	call/main.c	/^static void	usage(char *);$/;"	p	file:	signature:(char *)
+usage	call/main.c	/^usage(char *msg)$/;"	f	file:	signature:(char *msg)
+usernm	ipp/print.h	/^	char usernm[USERNM_MAX];	\/* user's name *\/$/;"	m	struct:printreq	access:public
+util.c	ipp/util.c	1;"	F
+vfork1.c	proc/vfork1.c	1;"	F
+vfork3.c	proc/vfork3.c	1;"	F
+wait1.c	proc/wait1.c	1;"	F
+waitloc	threadctl/suspend.c	/^pthread_cond_t waitloc = PTHREAD_COND_INITIALIZER;$/;"	v
+winch.c	termios/winch.c	1;"	F
+worker_thread	ipp/printd.c	/^struct worker_thread {$/;"	s	file:
+worker_thread::next	ipp/printd.c	/^	struct worker_thread  *next;	\/* next in list *\/$/;"	m	struct:worker_thread	typeref:struct:worker_thread::worker_thread	file:	access:public
+worker_thread::prev	ipp/printd.c	/^	struct worker_thread  *prev;	\/* previous in list *\/$/;"	m	struct:worker_thread	typeref:struct:worker_thread::worker_thread	file:	access:public
+worker_thread::sockfd	ipp/printd.c	/^	int                    sockfd;	\/* socket *\/$/;"	m	struct:worker_thread	file:	access:public
+worker_thread::tid	ipp/printd.c	/^	pthread_t              tid;		\/* thread ID *\/$/;"	m	struct:worker_thread	file:	access:public
+workerlock	ipp/printd.c	/^pthread_mutex_t		workerlock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+workers	ipp/printd.c	/^struct worker_thread	*workers;$/;"	v	typeref:struct:worker_thread
+workq	threads/condvar.c	/^struct msg *workq;$/;"	v	typeref:struct:msg
+write_lock	include/apue.h	/^#define	write_lock(/;"	d
+write_lock	lib/apue.h	/^#define	write_lock(/;"	d
+writen	include/apue.h	/^ssize_t	 writen(int, const void *, size_t);	\/* {Prog readn_writen} *\/$/;"	p	signature:(int, const void *, size_t)
+writen	lib/apue.h	/^ssize_t	 writen(int, const void *, size_t);	\/* {Prog readn_writen} *\/$/;"	p	signature:(int, const void *, size_t)
+writen	lib/writen.c	/^writen(int fd, const void *ptr, size_t n)$/;"	f	signature:(int fd, const void *ptr, size_t n)
+writen.c	lib/writen.c	1;"	F
+writew_lock	include/apue.h	/^#define	writew_lock(/;"	d
+writew_lock	lib/apue.h	/^#define	writew_lock(/;"	d
+zap.c	file/zap.c	1;"	F
+zeromask	lib/tellwait.c	/^static sigset_t newmask, oldmask, zeromask;$/;"	v	file:
+zombie.c	proc/zombie.c	1;"	F
